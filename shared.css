@@ -555,7 +555,7 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 1280px;
   margin: 40px auto 0;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
 }
 .area-card {
@@ -640,10 +640,12 @@ h1, h2, h3, h4, h5, h6 {
 .area-card.a-2::before { background: var(--buriti); }
 .area-card.a-3::before { background: var(--pequi); }
 .area-card.a-4::before { background: var(--verde); }
+.area-card.a-5::before { background: var(--terra-deep); }
 .area-card.a-2 .area-num, .area-card.a-2 .area-chapter span { color: var(--buriti); }
 .area-card.a-3 .area-num, .area-card.a-3 .area-chapter span { color: oklch(58% 0.165 75); }
 .area-card.a-4 .area-num, .area-card.a-4 .area-chapter span { color: var(--verde); }
-.area-card.a-2 .area-chapter:hover, .area-card.a-3 .area-chapter:hover, .area-card.a-4 .area-chapter:hover { color: inherit; }
+.area-card.a-5 .area-num, .area-card.a-5 .area-chapter span { color: var(--terra-deep); }
+.area-card.a-2 .area-chapter:hover, .area-card.a-3 .area-chapter:hover, .area-card.a-4 .area-chapter:hover, .area-card.a-5 .area-chapter:hover { color: inherit; }
 
 @media (max-width: 980px) {
   .areas-grid { grid-template-columns: repeat(2, 1fr); }
