@@ -280,182 +280,205 @@
       <text x="0" y="0" text-anchor="middle" font-family="Inter,sans-serif" font-size="6" fill="#7a6a4a" font-style="italic" letter-spacing="0.5">pedagógica</text>
     </g>
   </g>
-  <!-- PROFESSORA (atrás da mesa, olhando para os pratos / inclinada) -->
+  <!-- PROFESSORA (atrás da mesa, olhando os pratos) -->
   <g transform="translate(500 555)">
-    <!-- Pernas/saia -->
+    <!-- Saia -->
     <path d="M-22 35 L 22 35 L 30 75 L -30 75 Z" fill="#7a2a20"/>
-    <!-- Sapatos -->
     <ellipse cx="-18" cy="78" rx="8" ry="3" fill="#3a1f10"/>
     <ellipse cx="18" cy="78" rx="8" ry="3" fill="#3a1f10"/>
-    <!-- Corpo (avental coral) -->
+    <!-- Avental coral -->
     <path d="M-26 -8 L 26 -8 L 30 36 L -30 36 Z" fill="#E87461"/>
     <!-- Gola/decote -->
     <path d="M-10 -8 L 0 2 L 10 -8 L 7 -11 L 0 -4 L -7 -11 Z" fill="#fff"/>
-    <!-- Bolso do avental -->
+    <!-- Bolso -->
     <rect x="-14" y="14" width="28" height="14" rx="2" fill="#c83232"/>
     <line x1="-14" y1="20" x2="14" y2="20" stroke="#7a2a20" stroke-width="0.8"/>
     <!-- Crachá -->
     <rect x="-22" y="0" width="14" height="10" rx="1.5" fill="#fff"/>
     <line x1="-19" y1="3" x2="-12" y2="3" stroke="#7a2a20" stroke-width="0.7"/>
     <line x1="-19" y1="6" x2="-12" y2="6" stroke="#7a2a20" stroke-width="0.7"/>
-    <!-- Braços inclinados para frente (apontando para os pratos) -->
+    <!-- Braços apontando para mesa -->
     <path d="M-26 -2 Q -36 12 -32 32" stroke="#E87461" stroke-width="11" fill="none" stroke-linecap="round"/>
     <path d="M26 -2 Q 36 12 32 32" stroke="#E87461" stroke-width="11" fill="none" stroke-linecap="round"/>
     <circle cx="-32" cy="34" r="6" fill="#f5d4b0"/>
     <circle cx="32" cy="34" r="6" fill="#f5d4b0"/>
     <!-- Pescoço -->
-    <path d="M-6 -14 L 6 -14 L 7 -8 L -7 -8 Z" fill="#e8b890"/>
-    <!-- Cabeça inclinada (olhando para baixo, para a mesa) -->
+    <path d="M-6 -14 L 6 -14 L 7 -8 L -7 -8 Z" fill="#f5d4b0"/>
+    <!-- Cabeça (sem orelhas escuras) -->
     <ellipse cx="0" cy="-30" rx="18" ry="20" fill="#f5d4b0"/>
-    <ellipse cx="-18" cy="-30" rx="3" ry="5" fill="#e8b890"/>
-    <ellipse cx="18" cy="-30" rx="3" ry="5" fill="#e8b890"/>
-    <!-- Cabelo preso em coque -->
-    <path d="M-18 -35 Q -16 -52 0 -54 Q 16 -52 18 -35 L 16 -25 Q 0 -34 -16 -25 Z" fill="#5a3a23"/>
-    <circle cx="0" cy="-54" r="6" fill="#5a3a23"/>
-    <!-- Brincos pequenos -->
+    <!-- Cabelo preso (não invade testa) -->
+    <path d="M-18 -38 Q -16 -50 0 -52 Q 16 -50 18 -38 L 18 -34 L -18 -34 Z" fill="#5a3a23"/>
+    <circle cx="0" cy="-52" r="6" fill="#5a3a23"/>
+    <!-- Brincos -->
     <circle cx="-18" cy="-26" r="1.5" fill="#D4A54A"/>
     <circle cx="18" cy="-26" r="1.5" fill="#D4A54A"/>
-    <!-- Olhos olhando para baixo -->
-    <path d="M-9 -28 Q -5 -25 -3 -28" stroke="#3a1f10" stroke-width="1.8" fill="none" stroke-linecap="round"/>
-    <path d="M3 -28 Q 5 -25 9 -28" stroke="#3a1f10" stroke-width="1.8" fill="none" stroke-linecap="round"/>
     <!-- Sobrancelhas -->
-    <path d="M-11 -34 Q -8 -36 -3 -34" stroke="#3a1f10" stroke-width="1.4" fill="none" stroke-linecap="round"/>
-    <path d="M3 -34 Q 8 -36 11 -34" stroke="#3a1f10" stroke-width="1.4" fill="none" stroke-linecap="round"/>
-    <!-- Bochechas -->
-    <circle cx="-11" cy="-22" r="3" fill="#E87461" opacity="0.3"/>
-    <circle cx="11" cy="-22" r="3" fill="#E87461" opacity="0.3"/>
-    <!-- Sorriso leve -->
-    <path d="M-5 -19 Q 0 -16 5 -19" stroke="#7a2a20" stroke-width="1.4" fill="none" stroke-linecap="round"/>
-  </g>
-
-  <!-- CRIANÇA 1 (esquerda da mesa, de frente) -->
-  <g transform="translate(360 670)">
-    <!-- Pernas -->
-    <rect x="-9" y="20" width="8" height="22" rx="2" fill="#5a3a23"/>
-    <rect x="1" y="20" width="8" height="22" rx="2" fill="#5a3a23"/>
-    <!-- Sapatinhos -->
-    <ellipse cx="-5" cy="44" rx="6" ry="2.5" fill="#3a1f10"/>
-    <ellipse cx="5" cy="44" rx="6" ry="2.5" fill="#3a1f10"/>
-    <!-- Corpo (vestido amarelo de bolinhas) -->
-    <path d="M-18 -5 L 18 -5 L 24 28 L -24 28 Z" fill="#D4A54A"/>
-    <circle cx="-8" cy="6" r="2" fill="#fff" opacity="0.7"/>
-    <circle cx="6" cy="12" r="2" fill="#fff" opacity="0.7"/>
-    <circle cx="-2" cy="20" r="2" fill="#fff" opacity="0.7"/>
-    <!-- Braços para frente/lado -->
-    <path d="M-18 0 Q -25 10 -22 22" stroke="#D4A54A" stroke-width="8" fill="none" stroke-linecap="round"/>
-    <path d="M18 0 Q 25 10 22 22" stroke="#D4A54A" stroke-width="8" fill="none" stroke-linecap="round"/>
-    <circle cx="-22" cy="22" r="4" fill="#fdc998"/>
-    <circle cx="22" cy="22" r="4" fill="#fdc998"/>
-    <!-- Pescoço -->
-    <path d="M-4 -10 L 4 -10 L 5 -5 L -5 -5 Z" fill="#d8a878"/>
-    <!-- Cabeça (proporção infantil) -->
-    <ellipse cx="0" cy="-26" rx="17" ry="19" fill="#fdc998"/>
-    <ellipse cx="-17" cy="-26" rx="3" ry="4" fill="#d8a878"/>
-    <ellipse cx="17" cy="-26" rx="3" ry="4" fill="#d8a878"/>
-    <!-- Cabelo com marias-chiquinhas -->
-    <ellipse cx="0" cy="-40" rx="19" ry="10" fill="#6e4828"/>
-    <circle cx="-14" cy="-44" r="6" fill="#6e4828"/>
-    <circle cx="14" cy="-44" r="6" fill="#6e4828"/>
-    <!-- Lacinhos -->
-    <circle cx="-21" cy="-38" r="3.5" fill="#E87461"/>
-    <circle cx="21" cy="-38" r="3.5" fill="#E87461"/>
-    <path d="M-25 -40 L -17 -36 L -25 -33 Z" fill="#E87461"/>
-    <path d="M25 -40 L 17 -36 L 25 -33 Z" fill="#E87461"/>
-    <!-- Olhos -->
-    <ellipse cx="-5" cy="-26" rx="1.8" ry="2.2" fill="#3a1f10"/>
-    <ellipse cx="5" cy="-26" rx="1.8" ry="2.2" fill="#3a1f10"/>
-    <!-- Bochechas -->
-    <circle cx="-11" cy="-19" r="3.5" fill="#E87461" opacity="0.4"/>
-    <circle cx="11" cy="-19" r="3.5" fill="#E87461" opacity="0.4"/>
+    <path d="M-10 -33 Q -7 -35 -3 -33" stroke="#3a1f10" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+    <path d="M3 -33 Q 7 -35 10 -33" stroke="#3a1f10" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+    <!-- Olhos abertos olhando -->
+    <ellipse cx="-6" cy="-28" rx="2.2" ry="2.6" fill="#fff"/>
+    <ellipse cx="6" cy="-28" rx="2.2" ry="2.6" fill="#fff"/>
+    <circle cx="-6" cy="-27" r="1.5" fill="#3a1f10"/>
+    <circle cx="6" cy="-27" r="1.5" fill="#3a1f10"/>
+    <circle cx="-5.5" cy="-27.5" r="0.6" fill="#fff"/>
+    <circle cx="6.5" cy="-27.5" r="0.6" fill="#fff"/>
+    <!-- Bochechas suaves -->
+    <circle cx="-11" cy="-21" r="2.5" fill="#E87461" opacity="0.25"/>
+    <circle cx="11" cy="-21" r="2.5" fill="#E87461" opacity="0.25"/>
     <!-- Sorriso -->
-    <path d="M-5 -15 Q 0 -10 5 -15" stroke="#7a2a20" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <path d="M-5 -18 Q 0 -14 5 -18" stroke="#7a2a20" stroke-width="1.4" fill="none" stroke-linecap="round"/>
   </g>
 
-  <!-- CRIANÇA 2 (centro-esquerda, de frente) -->
-  <g transform="translate(440 685)">
-    <rect x="-9" y="20" width="8" height="22" rx="2" fill="#3a1f10"/>
-    <rect x="1" y="20" width="8" height="22" rx="2" fill="#3a1f10"/>
-    <ellipse cx="-5" cy="44" rx="6" ry="2.5" fill="#2a1408"/>
-    <ellipse cx="5" cy="44" rx="6" ry="2.5" fill="#2a1408"/>
-    <!-- Corpo (camiseta verde) -->
-    <path d="M-18 -5 L 18 -5 L 24 28 L -24 28 Z" fill="#4A7C59"/>
-    <line x1="-22" y1="8" x2="22" y2="8" stroke="#7CB98A" stroke-width="2.5"/>
-    <path d="M-18 0 Q -25 10 -22 22" stroke="#4A7C59" stroke-width="8" fill="none" stroke-linecap="round"/>
-    <path d="M18 0 Q 25 10 22 22" stroke="#4A7C59" stroke-width="8" fill="none" stroke-linecap="round"/>
-    <circle cx="-22" cy="22" r="4" fill="#8b5e3c"/>
-    <circle cx="22" cy="22" r="4" fill="#8b5e3c"/>
-    <path d="M-4 -10 L 4 -10 L 5 -5 L -5 -5 Z" fill="#7a4a2a"/>
-    <ellipse cx="0" cy="-26" rx="17" ry="19" fill="#8b5e3c"/>
-    <ellipse cx="-17" cy="-26" rx="3" ry="4" fill="#7a4a2a"/>
-    <ellipse cx="17" cy="-26" rx="3" ry="4" fill="#7a4a2a"/>
-    <!-- Cabelo black power -->
-    <ellipse cx="0" cy="-40" rx="20" ry="12" fill="#2a1408"/>
-    <circle cx="-14" cy="-44" r="6" fill="#2a1408"/>
-    <circle cx="14" cy="-44" r="6" fill="#2a1408"/>
-    <circle cx="0" cy="-50" r="6" fill="#2a1408"/>
-    <ellipse cx="-5" cy="-26" rx="1.8" ry="2.2" fill="#fff"/>
-    <ellipse cx="5" cy="-26" rx="1.8" ry="2.2" fill="#fff"/>
-    <circle cx="-5" cy="-25.5" r="1.3" fill="#3a1f10"/>
-    <circle cx="5" cy="-25.5" r="1.3" fill="#3a1f10"/>
-    <circle cx="-11" cy="-19" r="3.5" fill="#E87461" opacity="0.35"/>
-    <circle cx="11" cy="-19" r="3.5" fill="#E87461" opacity="0.35"/>
-    <path d="M-5 -15 Q 0 -10 5 -15" stroke="#7a2a20" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- CRIANÇA 1 (esquerda da mesa, criança pequena fofa) -->
+  <g transform="translate(360 680)">
+    <!-- Perninhas curtas -->
+    <rect x="-8" y="22" width="7" height="14" rx="3" fill="#5a3a23"/>
+    <rect x="1" y="22" width="7" height="14" rx="3" fill="#5a3a23"/>
+    <ellipse cx="-4.5" cy="38" rx="5" ry="2" fill="#3a1f10"/>
+    <ellipse cx="4.5" cy="38" rx="5" ry="2" fill="#3a1f10"/>
+    <!-- Corpinho pequeno (vestido amarelo) -->
+    <path d="M-15 -2 L 15 -2 L 19 26 L -19 26 Z" fill="#D4A54A"/>
+    <circle cx="-7" cy="6" r="2" fill="#fff" opacity="0.8"/>
+    <circle cx="5" cy="12" r="2" fill="#fff" opacity="0.8"/>
+    <circle cx="-2" cy="18" r="2" fill="#fff" opacity="0.8"/>
+    <!-- Bracinhos -->
+    <path d="M-15 3 Q -20 12 -18 20" stroke="#D4A54A" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M15 3 Q 20 12 18 20" stroke="#D4A54A" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <circle cx="-18" cy="20" r="3.5" fill="#fdc998"/>
+    <circle cx="18" cy="20" r="3.5" fill="#fdc998"/>
+    <!-- CABEÇA GRANDE (proporção criança pequena) -->
+    <ellipse cx="0" cy="-25" rx="22" ry="24" fill="#fdc998"/>
+    <!-- Cabelinho com marias-chiquinhas -->
+    <ellipse cx="0" cy="-42" rx="22" ry="11" fill="#6e4828"/>
+    <circle cx="-16" cy="-46" r="7" fill="#6e4828"/>
+    <circle cx="16" cy="-46" r="7" fill="#6e4828"/>
+    <!-- Lacinhos coral grandes -->
+    <circle cx="-24" cy="-40" r="4.5" fill="#E87461"/>
+    <circle cx="24" cy="-40" r="4.5" fill="#E87461"/>
+    <path d="M-29 -42 L -19 -38 L -29 -34 Z" fill="#E87461"/>
+    <path d="M29 -42 L 19 -38 L 29 -34 Z" fill="#E87461"/>
+    <!-- Franja -->
+    <path d="M-12 -30 Q -10 -22 -3 -24 L -1 -28 Q -8 -32 -12 -30 Z" fill="#5a3a23"/>
+    <!-- Olhos GRANDES com brilho -->
+    <ellipse cx="-7" cy="-23" rx="3.5" ry="4" fill="#fff"/>
+    <ellipse cx="7" cy="-23" rx="3.5" ry="4" fill="#fff"/>
+    <circle cx="-7" cy="-22" r="2.5" fill="#3a1f10"/>
+    <circle cx="7" cy="-22" r="2.5" fill="#3a1f10"/>
+    <circle cx="-6" cy="-23.5" r="1" fill="#fff"/>
+    <circle cx="8" cy="-23.5" r="1" fill="#fff"/>
+    <!-- Bochechas BEM rosadas e grandes -->
+    <circle cx="-13" cy="-13" r="5" fill="#E87461" opacity="0.5"/>
+    <circle cx="13" cy="-13" r="5" fill="#E87461" opacity="0.5"/>
+    <!-- Naricinho -->
+    <path d="M-1 -13 Q 0 -10 1 -13" stroke="#c89875" stroke-width="0.9" fill="none"/>
+    <!-- Sorriso aberto fofo -->
+    <path d="M-5 -8 Q 0 -2 5 -8" stroke="#7a2a20" stroke-width="1.8" fill="none" stroke-linecap="round"/>
   </g>
 
-  <!-- CRIANÇA 3 (centro-direita, de frente) -->
-  <g transform="translate(560 685)">
-    <rect x="-9" y="20" width="8" height="22" rx="2" fill="#5a3a23"/>
-    <rect x="1" y="20" width="8" height="22" rx="2" fill="#5a3a23"/>
-    <ellipse cx="-5" cy="44" rx="6" ry="2.5" fill="#3a1f10"/>
-    <ellipse cx="5" cy="44" rx="6" ry="2.5" fill="#3a1f10"/>
+  <!-- CRIANÇA 2 (centro-esquerda, criança pequena) -->
+  <g transform="translate(440 695)">
+    <rect x="-8" y="22" width="7" height="14" rx="3" fill="#3a1f10"/>
+    <rect x="1" y="22" width="7" height="14" rx="3" fill="#3a1f10"/>
+    <ellipse cx="-4.5" cy="38" rx="5" ry="2" fill="#2a1408"/>
+    <ellipse cx="4.5" cy="38" rx="5" ry="2" fill="#2a1408"/>
+    <!-- Camiseta verde -->
+    <path d="M-15 -2 L 15 -2 L 19 26 L -19 26 Z" fill="#4A7C59"/>
+    <line x1="-18" y1="8" x2="18" y2="8" stroke="#7CB98A" stroke-width="2.5"/>
+    <path d="M-15 3 Q -20 12 -18 20" stroke="#4A7C59" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M15 3 Q 20 12 18 20" stroke="#4A7C59" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <circle cx="-18" cy="20" r="3.5" fill="#8b5e3c"/>
+    <circle cx="18" cy="20" r="3.5" fill="#8b5e3c"/>
+    <!-- CABEÇA GRANDE -->
+    <ellipse cx="0" cy="-25" rx="22" ry="24" fill="#8b5e3c"/>
+    <!-- Cabelo black power fofinho -->
+    <ellipse cx="0" cy="-40" rx="24" ry="14" fill="#2a1408"/>
+    <circle cx="-16" cy="-44" r="8" fill="#2a1408"/>
+    <circle cx="16" cy="-44" r="8" fill="#2a1408"/>
+    <circle cx="0" cy="-52" r="7" fill="#2a1408"/>
+    <circle cx="-10" cy="-54" r="5" fill="#2a1408"/>
+    <circle cx="10" cy="-54" r="5" fill="#2a1408"/>
+    <!-- Olhos GRANDES -->
+    <ellipse cx="-7" cy="-23" rx="3.5" ry="4" fill="#fff"/>
+    <ellipse cx="7" cy="-23" rx="3.5" ry="4" fill="#fff"/>
+    <circle cx="-7" cy="-22" r="2.5" fill="#3a1f10"/>
+    <circle cx="7" cy="-22" r="2.5" fill="#3a1f10"/>
+    <circle cx="-6" cy="-23.5" r="1" fill="#fff"/>
+    <circle cx="8" cy="-23.5" r="1" fill="#fff"/>
+    <!-- Bochechas -->
+    <circle cx="-13" cy="-13" r="5" fill="#E87461" opacity="0.45"/>
+    <circle cx="13" cy="-13" r="5" fill="#E87461" opacity="0.45"/>
+    <!-- Sorriso aberto com dentinho -->
+    <path d="M-5 -8 Q 0 -2 5 -8" stroke="#7a2a20" stroke-width="1.8" fill="#7a2a20" stroke-linecap="round"/>
+    <rect x="-2" y="-7" width="4" height="2.5" fill="#fff"/>
+  </g>
+
+  <!-- CRIANÇA 3 (centro-direita, criança pequena) -->
+  <g transform="translate(560 695)">
+    <rect x="-8" y="22" width="7" height="14" rx="3" fill="#5a3a23"/>
+    <rect x="1" y="22" width="7" height="14" rx="3" fill="#5a3a23"/>
+    <ellipse cx="-4.5" cy="38" rx="5" ry="2" fill="#3a1f10"/>
+    <ellipse cx="4.5" cy="38" rx="5" ry="2" fill="#3a1f10"/>
     <!-- Camiseta azul -->
-    <path d="M-18 -5 L 18 -5 L 24 28 L -24 28 Z" fill="#5b9bd5"/>
-    <line x1="-22" y1="8" x2="22" y2="8" stroke="#fff" stroke-width="2.5"/>
-    <path d="M-18 0 Q -25 10 -22 22" stroke="#5b9bd5" stroke-width="8" fill="none" stroke-linecap="round"/>
-    <path d="M18 0 Q 25 10 22 22" stroke="#5b9bd5" stroke-width="8" fill="none" stroke-linecap="round"/>
-    <circle cx="-22" cy="22" r="4" fill="#fdc998"/>
-    <circle cx="22" cy="22" r="4" fill="#fdc998"/>
-    <path d="M-4 -10 L 4 -10 L 5 -5 L -5 -5 Z" fill="#d8a878"/>
-    <ellipse cx="0" cy="-26" rx="17" ry="19" fill="#fdc998"/>
-    <ellipse cx="-17" cy="-26" rx="3" ry="4" fill="#d8a878"/>
-    <ellipse cx="17" cy="-26" rx="3" ry="4" fill="#d8a878"/>
+    <path d="M-15 -2 L 15 -2 L 19 26 L -19 26 Z" fill="#5b9bd5"/>
+    <line x1="-18" y1="8" x2="18" y2="8" stroke="#fff" stroke-width="2.5"/>
+    <path d="M-15 3 Q -20 12 -18 20" stroke="#5b9bd5" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M15 3 Q 20 12 18 20" stroke="#5b9bd5" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <circle cx="-18" cy="20" r="3.5" fill="#fdc998"/>
+    <circle cx="18" cy="20" r="3.5" fill="#fdc998"/>
+    <!-- CABEÇA GRANDE -->
+    <ellipse cx="0" cy="-25" rx="22" ry="24" fill="#fdc998"/>
     <!-- Cabelo cacheado -->
-    <ellipse cx="0" cy="-40" rx="20" ry="11" fill="#6e4828"/>
-    <circle cx="-14" cy="-44" r="6" fill="#6e4828"/>
-    <circle cx="14" cy="-44" r="6" fill="#6e4828"/>
-    <circle cx="-6" cy="-50" r="5" fill="#6e4828"/>
-    <circle cx="6" cy="-50" r="5" fill="#6e4828"/>
-    <ellipse cx="-5" cy="-26" rx="1.8" ry="2.2" fill="#3a1f10"/>
-    <ellipse cx="5" cy="-26" rx="1.8" ry="2.2" fill="#3a1f10"/>
-    <circle cx="-11" cy="-19" r="3.5" fill="#E87461" opacity="0.4"/>
-    <circle cx="11" cy="-19" r="3.5" fill="#E87461" opacity="0.4"/>
-    <path d="M-5 -15 Q 0 -10 5 -15" stroke="#7a2a20" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <ellipse cx="0" cy="-40" rx="23" ry="12" fill="#6e4828"/>
+    <circle cx="-16" cy="-44" r="7" fill="#6e4828"/>
+    <circle cx="16" cy="-44" r="7" fill="#6e4828"/>
+    <circle cx="-7" cy="-50" r="5" fill="#6e4828"/>
+    <circle cx="7" cy="-50" r="5" fill="#6e4828"/>
+    <circle cx="0" cy="-52" r="5" fill="#6e4828"/>
+    <!-- Olhos GRANDES -->
+    <ellipse cx="-7" cy="-23" rx="3.5" ry="4" fill="#fff"/>
+    <ellipse cx="7" cy="-23" rx="3.5" ry="4" fill="#fff"/>
+    <circle cx="-7" cy="-22" r="2.5" fill="#3a1f10"/>
+    <circle cx="7" cy="-22" r="2.5" fill="#3a1f10"/>
+    <circle cx="-6" cy="-23.5" r="1" fill="#fff"/>
+    <circle cx="8" cy="-23.5" r="1" fill="#fff"/>
+    <!-- Bochechas -->
+    <circle cx="-13" cy="-13" r="5" fill="#E87461" opacity="0.5"/>
+    <circle cx="13" cy="-13" r="5" fill="#E87461" opacity="0.5"/>
+    <!-- Naricinho -->
+    <path d="M-1 -13 Q 0 -10 1 -13" stroke="#c89875" stroke-width="0.9" fill="none"/>
+    <!-- Sorriso -->
+    <path d="M-5 -8 Q 0 -2 5 -8" stroke="#7a2a20" stroke-width="1.8" fill="none" stroke-linecap="round"/>
   </g>
 
-  <!-- CRIANÇA 4 (direita da mesa, de frente) -->
-  <g transform="translate(640 670)">
-    <rect x="-9" y="20" width="8" height="22" rx="2" fill="#5a3a23"/>
-    <rect x="1" y="20" width="8" height="22" rx="2" fill="#5a3a23"/>
-    <ellipse cx="-5" cy="44" rx="6" ry="2.5" fill="#3a1f10"/>
-    <ellipse cx="5" cy="44" rx="6" ry="2.5" fill="#3a1f10"/>
-    <!-- Camiseta coral com bolinha -->
-    <path d="M-18 -5 L 18 -5 L 24 28 L -24 28 Z" fill="#E87461"/>
-    <circle cx="0" cy="13" r="5" fill="#fff" opacity="0.7"/>
-    <path d="M-18 0 Q -25 10 -22 22" stroke="#E87461" stroke-width="8" fill="none" stroke-linecap="round"/>
-    <path d="M18 0 Q 25 10 22 22" stroke="#E87461" stroke-width="8" fill="none" stroke-linecap="round"/>
-    <circle cx="-22" cy="22" r="4" fill="#fdc998"/>
-    <circle cx="22" cy="22" r="4" fill="#fdc998"/>
-    <path d="M-4 -10 L 4 -10 L 5 -5 L -5 -5 Z" fill="#d8a878"/>
-    <ellipse cx="0" cy="-26" rx="17" ry="19" fill="#fdc998"/>
-    <ellipse cx="-17" cy="-26" rx="3" ry="4" fill="#d8a878"/>
-    <ellipse cx="17" cy="-26" rx="3" ry="4" fill="#d8a878"/>
-    <!-- Cabelo curto -->
-    <path d="M-17 -38 Q -10 -48 0 -48 Q 10 -48 17 -38 L 16 -30 Q 8 -36 0 -36 Q -8 -36 -16 -30 Z" fill="#a87545"/>
-    <ellipse cx="-5" cy="-26" rx="1.8" ry="2.2" fill="#3a1f10"/>
-    <ellipse cx="5" cy="-26" rx="1.8" ry="2.2" fill="#3a1f10"/>
-    <circle cx="-11" cy="-19" r="3.5" fill="#E87461" opacity="0.4"/>
-    <circle cx="11" cy="-19" r="3.5" fill="#E87461" opacity="0.4"/>
-    <path d="M-5 -15 Q 0 -10 5 -15" stroke="#7a2a20" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- CRIANÇA 4 (direita da mesa, criança pequena) -->
+  <g transform="translate(640 680)">
+    <rect x="-8" y="22" width="7" height="14" rx="3" fill="#5a3a23"/>
+    <rect x="1" y="22" width="7" height="14" rx="3" fill="#5a3a23"/>
+    <ellipse cx="-4.5" cy="38" rx="5" ry="2" fill="#3a1f10"/>
+    <ellipse cx="4.5" cy="38" rx="5" ry="2" fill="#3a1f10"/>
+    <!-- Camiseta coral -->
+    <path d="M-15 -2 L 15 -2 L 19 26 L -19 26 Z" fill="#E87461"/>
+    <circle cx="0" cy="12" r="4.5" fill="#fff" opacity="0.7"/>
+    <path d="M-15 3 Q -20 12 -18 20" stroke="#E87461" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M15 3 Q 20 12 18 20" stroke="#E87461" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <circle cx="-18" cy="20" r="3.5" fill="#fdc998"/>
+    <circle cx="18" cy="20" r="3.5" fill="#fdc998"/>
+    <!-- CABEÇA GRANDE -->
+    <ellipse cx="0" cy="-25" rx="22" ry="24" fill="#fdc998"/>
+    <!-- Cabelo curto bagunçadinho -->
+    <path d="M-20 -34 Q -14 -50 0 -50 Q 14 -50 20 -34 L 18 -26 Q 12 -32 6 -28 Q 0 -34 -6 -28 Q -12 -32 -18 -26 Z" fill="#a87545"/>
+    <!-- Olhos GRANDES -->
+    <ellipse cx="-7" cy="-23" rx="3.5" ry="4" fill="#fff"/>
+    <ellipse cx="7" cy="-23" rx="3.5" ry="4" fill="#fff"/>
+    <circle cx="-7" cy="-22" r="2.5" fill="#3a1f10"/>
+    <circle cx="7" cy="-22" r="2.5" fill="#3a1f10"/>
+    <circle cx="-6" cy="-23.5" r="1" fill="#fff"/>
+    <circle cx="8" cy="-23.5" r="1" fill="#fff"/>
+    <!-- Bochechas -->
+    <circle cx="-13" cy="-13" r="5" fill="#E87461" opacity="0.5"/>
+    <circle cx="13" cy="-13" r="5" fill="#E87461" opacity="0.5"/>
+    <path d="M-1 -13 Q 0 -10 1 -13" stroke="#c89875" stroke-width="0.9" fill="none"/>
+    <path d="M-5 -8 Q 0 -2 5 -8" stroke="#7a2a20" stroke-width="1.8" fill="none" stroke-linecap="round"/>
   </g>
   <!-- table with food -->
   <g transform="translate(500 620)">
