@@ -47,10 +47,11 @@
     <text x="410" y="139" text-anchor="middle" font-family="Inter,sans-serif" font-size="8" fill="white">Pxe</text>
 
     <text x="220" y="165" font-family="Inter,sans-serif" font-size="10" fill="#7CB98A">Frutas, legumes, verduras, ovos, graos, carnes, leite</text>
+    <text x="220" y="183" font-family="Inter,sans-serif" font-size="9" fill="#aaa" font-style="italic">+ Ingredientes culinarios (Grupo 2): oleos, gorduras, sal e acucar — pequenas quantidades para temperar e cozinhar</text>
   </g>
 
   <!-- linha divisoria -->
-  <line x1="90" y1="190" x2="710" y2="190" stroke="#555" stroke-width="1"/>
+  <line x1="90" y1="195" x2="710" y2="195" stroke="#555" stroke-width="1"/>
 
   <!-- ========== AMARELO - PROCESSADOS ========== -->
   <g>
@@ -96,8 +97,7 @@
     <line x1="158" y1="402" x2="122" y2="438" stroke="white" stroke-width="5" stroke-linecap="round"/>
 
     <!-- texto -->
-    <text x="220" y="385" font-family="Inter,sans-serif" font-size="15" font-weight="700" fill="#F5A08F">ULTRAPROCESSADOS — EVITAR</text>
-    <text x="220" y="405" font-family="Inter,sans-serif" font-size="12" fill="#aaa">Proibidos ou restritos pela Res. FNDE 4/2026</text>
+    <text x="220" y="395" font-family="Inter,sans-serif" font-size="15" font-weight="700" fill="#F5A08F">ULTRAPROCESSADOS — EVITAR</text>
 
     <!-- alimentos riscados -->
     <g>
