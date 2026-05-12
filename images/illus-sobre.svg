@@ -1,70 +1,196 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2100 900" preserveAspectRatio="xMidYMid slice">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750">
   <defs>
-    <linearGradient id="s-bg" x1="0" x2="1" y1="0" y2="1">
+    <linearGradient id="bg-sobre" x1="0" x2="0" y1="0" y2="1">
       <stop offset="0" stop-color="#fdf6e8"/>
-      <stop offset="1" stop-color="#eef7f0"/>
+      <stop offset="1" stop-color="#f5f0e6"/>
+    </linearGradient>
+    <linearGradient id="grad-mesa" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#a87545"/>
+      <stop offset="1" stop-color="#6e4828"/>
+    </linearGradient>
+    <linearGradient id="grad-parede" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#fef8e8"/>
+      <stop offset="1" stop-color="#f5ecd0"/>
+    </linearGradient>
+    <linearGradient id="grad-janela" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#bae3f5"/>
+      <stop offset="1" stop-color="#cce8f2"/>
     </linearGradient>
   </defs>
-  <rect width="2100" height="900" fill="url(#s-bg)"/>
-  <!-- table surface -->
-  <rect x="100" y="200" width="1900" height="500" rx="20" fill="#c8905d" opacity="0.3"/>
-  <!-- plates seen from above -->
-  <g>
-    <!-- plate 1 - rice and beans -->
-    <circle cx="400" cy="400" r="110" fill="#fdf5e6" stroke="#D4A54A" stroke-width="2"/>
-    <circle cx="400" cy="400" r="95" fill="#f5f0e6"/>
-    <path d="M400 400 L400 305 A95 95 0 0 1 495 400Z" fill="#fdf5e6"/>
-    <ellipse cx="430" cy="370" rx="35" ry="25" fill="#8B5E3C" opacity="0.6"/>
-    <ellipse cx="370" cy="430" rx="35" ry="25" fill="#E8C94A" opacity="0.4"/>
-    <ellipse cx="420" cy="420" rx="20" ry="15" fill="#4A7C59" opacity="0.5"/>
-    <!-- plate 2 - salad -->
-    <circle cx="750" cy="350" r="100" fill="#fdf5e6" stroke="#4A7C59" stroke-width="2"/>
-    <circle cx="750" cy="350" r="85" fill="#eef7f0"/>
-    <circle cx="730" cy="330" r="15" fill="#7CB98A" opacity="0.7"/>
-    <circle cx="760" cy="340" r="12" fill="#e44" opacity="0.5"/>
-    <circle cx="740" cy="360" r="18" fill="#5a9a4a" opacity="0.5"/>
-    <circle cx="770" cy="365" r="10" fill="#f4903a" opacity="0.5"/>
-    <circle cx="750" cy="330" r="8" fill="#E8C94A" opacity="0.4"/>
-    <!-- plate 3 - fruit -->
-    <circle cx="1100" cy="420" r="105" fill="#fdf5e6" stroke="#E87461" stroke-width="2"/>
-    <circle cx="1100" cy="420" r="90" fill="#fdf0ee"/>
-    <circle cx="1080" cy="400" r="15" fill="#e44" opacity="0.6"/>
-    <circle cx="1110" cy="410" r="12" fill="#f90" opacity="0.6"/>
-    <path d="M1120 430 Q1130 420 1140 430 Q1130 440 1120 430Z" fill="#E8C94A"/>
-    <circle cx="1090" cy="440" r="14" fill="#8B6BAE" opacity="0.5"/>
-    <circle cx="1115" cy="435" r="10" fill="#4A7C59" opacity="0.4"/>
-    <!-- plate 4 -->
-    <circle cx="1450" cy="380" r="95" fill="#fdf5e6" stroke="#5B9BD5" stroke-width="2"/>
-    <circle cx="1450" cy="380" r="80" fill="#eef5fb"/>
-    <ellipse cx="1430" cy="370" rx="25" ry="18" fill="#c8905d" opacity="0.4"/>
-    <ellipse cx="1460" cy="390" rx="20" ry="15" fill="#4A7C59" opacity="0.5"/>
-    <circle cx="1470" cy="365" r="10" fill="#E8C94A" opacity="0.5"/>
-    <!-- plate 5 -->
-    <circle cx="1750" cy="430" r="100" fill="#fdf5e6" stroke="#D4A54A" stroke-width="2"/>
-    <circle cx="1750" cy="430" r="85" fill="#fdf6e8"/>
-    <ellipse cx="1730" cy="420" rx="30" ry="20" fill="#8B5E3C" opacity="0.5"/>
-    <ellipse cx="1770" cy="440" rx="25" ry="18" fill="#E8C94A" opacity="0.4"/>
-    <circle cx="1740" cy="445" r="12" fill="#4A7C59" opacity="0.4"/>
+
+  <rect width="600" height="750" fill="url(#bg-sobre)"/>
+
+  <!-- HEADER -->
+  <text x="300" y="50" text-anchor="middle" font-family="Inter,sans-serif" font-size="11" font-weight="700" letter-spacing="3.5" fill="#7a6a4a">FUNDAMENTOS · CAPÍTULO 00</text>
+  <text x="300" y="92" text-anchor="middle" font-family="Inter,sans-serif" font-size="34" font-weight="700" fill="#3a3a3a">Direito, <tspan font-style="italic" fill="#E87461">não favor</tspan></text>
+
+  <!-- ============ CENA DE REFEITÓRIO ============ -->
+  <!-- Parede de fundo -->
+  <rect x="50" y="125" width="500" height="320" rx="14" fill="url(#grad-parede)" stroke="#d4c8a8" stroke-width="2"/>
+
+  <!-- Janela com vista (Cerrado) -->
+  <rect x="80" y="155" width="180" height="120" rx="8" fill="url(#grad-janela)"/>
+  <circle cx="220" cy="200" r="14" fill="#E8C94A" opacity="0.8"/>
+  <line x1="110" y1="275" x2="110" y2="240" stroke="#5a3a23" stroke-width="3"/>
+  <path d="M110 240 Q 96 230 88 235 M 110 240 Q 124 230 132 235 M 110 240 Q 100 224 95 218 M 110 240 Q 120 224 125 218" stroke="#4A7C59" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <line x1="160" y1="275" x2="160" y2="248" stroke="#5a3a23" stroke-width="3"/>
+  <path d="M160 248 Q 148 240 142 244 M 160 248 Q 172 240 178 244 M 160 248 Q 152 232 148 226 M 160 248 Q 168 232 172 226" stroke="#5A9A6E" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <line x1="170" y1="155" x2="170" y2="275" stroke="#a87545" stroke-width="3"/>
+  <line x1="80" y1="215" x2="260" y2="215" stroke="#a87545" stroke-width="3"/>
+  <rect x="78" y="153" width="184" height="124" rx="8" fill="none" stroke="#8b6238" stroke-width="3"/>
+
+  <!-- Quadro na parede -->
+  <g transform="translate(380,200)">
+    <rect x="-50" y="-30" width="100" height="60" rx="4" fill="#fff" stroke="#8b6238" stroke-width="2"/>
+    <text x="0" y="-8" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" font-weight="700" fill="#4A7C59" letter-spacing="1.5">ALIMENTAR-SE</text>
+    <text x="0" y="6" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" font-weight="700" fill="#4A7C59" letter-spacing="1.5">É APRENDER</text>
+    <line x1="-30" y1="14" x2="30" y2="14" stroke="#E8C94A" stroke-width="2"/>
+    <text x="0" y="24" text-anchor="middle" font-family="Inter,sans-serif" font-size="7" fill="#7a6a4a" font-style="italic">BNCC · DCNEI</text>
   </g>
-  <!-- juice glasses -->
-  <circle cx="550" cy="280" r="20" fill="#f90" opacity="0.4"/>
-  <circle cx="550" cy="280" r="15" fill="#f90" opacity="0.3"/>
-  <circle cx="900" cy="250" r="18" fill="#E8C94A" opacity="0.4"/>
-  <circle cx="900" cy="250" r="13" fill="#E8C94A" opacity="0.3"/>
-  <circle cx="1300" cy="290" r="20" fill="#E87461" opacity="0.3"/>
-  <circle cx="1300" cy="290" r="15" fill="#E87461" opacity="0.2"/>
-  <!-- colored placemats -->
-  <rect x="250" y="550" width="180" height="120" rx="8" fill="#E87461" opacity="0.1"/>
-  <rect x="600" y="530" width="180" height="120" rx="8" fill="#5B9BD5" opacity="0.1"/>
-  <rect x="950" y="560" width="180" height="120" rx="8" fill="#4A7C59" opacity="0.1"/>
-  <rect x="1300" y="540" width="180" height="120" rx="8" fill="#D4A54A" opacity="0.1"/>
-  <rect x="1650" y="555" width="180" height="120" rx="8" fill="#8B6BAE" opacity="0.1"/>
-  <!-- small hands reaching -->
-  <g opacity="0.6">
-    <path d="M300 620 Q310 600 320 610 L325 630 Q320 640 310 635Z" fill="#c8905d"/>
-    <path d="M680 610 Q690 590 700 600 L705 620 Q700 630 690 625Z" fill="#8B5E3C"/>
-    <path d="M1050 630 Q1060 610 1070 620 L1075 640 Q1070 650 1060 645Z" fill="#e0b090"/>
-    <path d="M1400 615 Q1410 595 1420 605 L1425 625 Q1420 635 1410 630Z" fill="#6d4a2a"/>
-    <path d="M1750 625 Q1760 605 1770 615 L1775 635 Q1770 645 1760 640Z" fill="#c8905d"/>
+
+  <!-- Plantinha em vaso -->
+  <g transform="translate(490,250)">
+    <rect x="-12" y="-2" width="24" height="20" rx="3" fill="#8B5E3C"/>
+    <rect x="-13" y="-4" width="26" height="4" rx="1.5" fill="#5a3a23"/>
+    <path d="M0 -2 Q 2 -18 -3 -28" stroke="#4A7C59" stroke-width="2.5" fill="none"/>
+    <ellipse cx="-6" cy="-18" rx="5" ry="2.5" fill="#4A7C59" transform="rotate(-30 -6 -18)"/>
+    <ellipse cx="5" cy="-24" rx="6" ry="3" fill="#5A9A6E" transform="rotate(20 5 -24)"/>
+    <ellipse cx="-4" cy="-30" rx="5" ry="2.5" fill="#4A7C59" transform="rotate(-15 -4 -30)"/>
   </g>
+
+  <!-- Educadora -->
+  <g transform="translate(300,310)">
+    <circle cx="0" cy="-50" r="18" fill="#f5d4b0"/>
+    <path d="M-18 -55 Q -16 -75 0 -75 Q 16 -75 18 -55 L 16 -42 Q 0 -52 -16 -42 Z" fill="#5a3a23"/>
+    <ellipse cx="-6" cy="-50" rx="1.5" ry="2" fill="#3a3a3a"/>
+    <ellipse cx="6" cy="-50" rx="1.5" ry="2" fill="#3a3a3a"/>
+    <path d="M-5 -42 Q 0 -38 5 -42" stroke="#3a3a3a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <path d="M-22 -30 L 22 -30 L 26 30 L -26 30 Z" fill="#E87461"/>
+    <rect x="-10" y="0" width="20" height="14" rx="2" fill="#c83232" opacity="0.5"/>
+    <rect x="-18" y="-22" width="12" height="8" rx="1.5" fill="#fff"/>
+    <line x1="-16" y1="-19" x2="-8" y2="-19" stroke="#7a2a20" stroke-width="0.8"/>
+    <line x1="-16" y1="-16" x2="-8" y2="-16" stroke="#7a2a20" stroke-width="0.8"/>
+  </g>
+
+  <!-- MESA -->
+  <g transform="translate(300,400)">
+    <path d="M-220 -10 L 220 -10 L 240 25 L -240 25 Z" fill="url(#grad-mesa)"/>
+    <path d="M-220 -10 L 220 -10 L 230 -2 L -230 -2 Z" fill="#c8905d"/>
+    <rect x="-225" y="20" width="8" height="20" fill="#6e4828"/>
+    <rect x="217" y="20" width="8" height="20" fill="#6e4828"/>
+  </g>
+
+  <!-- PRATOS -->
+  <g transform="translate(160,390)">
+    <ellipse cx="0" cy="0" rx="38" ry="11" fill="#fefdf6" stroke="#d4c8a8" stroke-width="1.5"/>
+    <ellipse cx="0" cy="-1" rx="32" ry="8" fill="#f8f1de"/>
+    <ellipse cx="-10" cy="-1" rx="10" ry="5" fill="#fdf6e8"/>
+    <ellipse cx="8" cy="-1" rx="9" ry="4" fill="#5a3a23"/>
+    <ellipse cx="0" cy="2" rx="6" ry="3" fill="#4A7C59"/>
+    <ellipse cx="-15" cy="-4" rx="6" ry="1.2" fill="#fff" opacity="0.6"/>
+  </g>
+
+  <g transform="translate(300,395)">
+    <ellipse cx="0" cy="0" rx="40" ry="12" fill="#fefdf6" stroke="#d4c8a8" stroke-width="1.5"/>
+    <ellipse cx="0" cy="-1" rx="34" ry="9" fill="#f8f1de"/>
+    <ellipse cx="-10" cy="-1" rx="10" ry="5" fill="#fdf6e8"/>
+    <ellipse cx="8" cy="-1" rx="9" ry="4" fill="#5a3a23"/>
+    <ellipse cx="0" cy="3" rx="7" ry="3" fill="#E87461"/>
+    <ellipse cx="-15" cy="-4" rx="6" ry="1.2" fill="#fff" opacity="0.6"/>
+  </g>
+
+  <g transform="translate(440,390)">
+    <ellipse cx="0" cy="0" rx="38" ry="11" fill="#fefdf6" stroke="#d4c8a8" stroke-width="1.5"/>
+    <ellipse cx="0" cy="-1" rx="32" ry="8" fill="#f8f1de"/>
+    <ellipse cx="-10" cy="-1" rx="10" ry="5" fill="#fdf6e8"/>
+    <ellipse cx="8" cy="-1" rx="9" ry="4" fill="#5a3a23"/>
+    <ellipse cx="0" cy="2" rx="6" ry="3" fill="#D4A54A"/>
+    <ellipse cx="-15" cy="-4" rx="6" ry="1.2" fill="#fff" opacity="0.6"/>
+  </g>
+
+  <!-- CRIANÇAS -->
+  <g transform="translate(160,425)">
+    <circle cx="0" cy="0" r="16" fill="#f5d4b0"/>
+    <path d="M-16 -8 Q -14 -22 0 -22 Q 14 -22 16 -8 L 14 0 Q 0 -8 -14 0 Z" fill="#3a1f10"/>
+    <circle cx="-13" cy="-8" r="3" fill="#3a1f10"/>
+    <circle cx="13" cy="-8" r="3" fill="#3a1f10"/>
+    <ellipse cx="-5" cy="0" rx="1.5" ry="2" fill="#3a3a3a"/>
+    <ellipse cx="5" cy="0" rx="1.5" ry="2" fill="#3a3a3a"/>
+    <path d="M-4 6 Q 0 10 4 6" stroke="#3a3a3a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <path d="M-18 14 L 18 14 L 20 35 L -20 35 Z" fill="#4A7C59"/>
+  </g>
+
+  <g transform="translate(300,430)">
+    <circle cx="0" cy="0" r="16" fill="#fdc998"/>
+    <path d="M-16 -8 Q -14 -22 0 -22 Q 14 -22 16 -8 L 14 0 Q 0 -10 -14 0 Z" fill="#8B5E3C"/>
+    <ellipse cx="-7" cy="-22" rx="4" ry="3" fill="#E87461"/>
+    <ellipse cx="7" cy="-22" rx="4" ry="3" fill="#E87461"/>
+    <ellipse cx="-5" cy="0" rx="1.5" ry="2" fill="#3a3a3a"/>
+    <ellipse cx="5" cy="0" rx="1.5" ry="2" fill="#3a3a3a"/>
+    <path d="M-4 6 Q 0 10 4 6" stroke="#3a3a3a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <path d="M-18 14 L 18 14 L 20 35 L -20 35 Z" fill="#D4A54A"/>
+  </g>
+
+  <g transform="translate(440,425)">
+    <circle cx="0" cy="0" r="16" fill="#f5d4b0"/>
+    <path d="M-16 -10 Q -10 -24 0 -24 Q 10 -24 16 -10 L 15 -2 Q 0 -10 -15 -2 Z" fill="#5a3a23"/>
+    <ellipse cx="-5" cy="0" rx="1.5" ry="2" fill="#3a3a3a"/>
+    <ellipse cx="5" cy="0" rx="1.5" ry="2" fill="#3a3a3a"/>
+    <path d="M-4 6 Q 0 10 4 6" stroke="#3a3a3a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <path d="M-18 14 L 18 14 L 20 35 L -20 35 Z" fill="#5b9bd5"/>
+  </g>
+
+  <!-- ============ 3 PRINCÍPIOS ============ -->
+  <g transform="translate(40,490)">
+    <!-- DIREITO -->
+    <g transform="translate(0,0)">
+      <rect x="0" y="0" width="170" height="160" rx="14" fill="#fdebe7" stroke="#F5A08F" stroke-width="2"/>
+      <rect x="0" y="0" width="170" height="6" rx="3" fill="#E87461"/>
+      <g transform="translate(85,55)">
+        <path d="M0 -22 L 7 -7 L 22 -5 L 11 5 L 14 21 L 0 13 L -14 21 L -11 5 L -22 -5 L -7 -7 Z" fill="#E87461"/>
+      </g>
+      <text x="85" y="110" text-anchor="middle" font-family="Inter,sans-serif" font-size="18" font-weight="700" fill="#7a2a20">DIREITO</text>
+      <text x="85" y="128" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#a04030">Garantido pela</text>
+      <text x="85" y="142" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#a04030">Constituição (1988)</text>
+    </g>
+
+    <!-- NUTRIR -->
+    <g transform="translate(175,0)">
+      <rect x="0" y="0" width="170" height="160" rx="14" fill="#e8f5ed" stroke="#7CB98A" stroke-width="2"/>
+      <rect x="0" y="0" width="170" height="6" rx="3" fill="#4A7C59"/>
+      <g transform="translate(85,55)">
+        <ellipse cx="0" cy="8" rx="26" ry="6" fill="#4A7C59"/>
+        <path d="M-22 8 Q -22 -18 0 -18 Q 22 -18 22 8 Z" fill="#5A9A6E"/>
+        <circle cx="0" cy="-18" r="3" fill="#4A7C59"/>
+        <path d="M-8 -24 Q -8 -32 -4 -34 Q -4 -38 0 -38" stroke="#7CB98A" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.8"/>
+        <path d="M0 -24 Q 0 -32 4 -34 Q 4 -38 8 -38" stroke="#7CB98A" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.8"/>
+      </g>
+      <text x="85" y="110" text-anchor="middle" font-family="Inter,sans-serif" font-size="18" font-weight="700" fill="#2d5a3a">NUTRIR</text>
+      <text x="85" y="128" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#4A7C59">Comida de verdade</text>
+      <text x="85" y="142" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#4A7C59">todos os dias</text>
+    </g>
+
+    <!-- ENSINAR -->
+    <g transform="translate(350,0)">
+      <rect x="0" y="0" width="170" height="160" rx="14" fill="#fdf6e0" stroke="#E8C94A" stroke-width="2"/>
+      <rect x="0" y="0" width="170" height="6" rx="3" fill="#D4A54A"/>
+      <g transform="translate(85,55)">
+        <path d="M-22 8 L 0 0 L 22 8 L 22 -10 L 0 -18 L -22 -10 Z" fill="#fdf6c0"/>
+        <path d="M-22 8 L 0 0 L 0 -18 L -22 -10 Z" fill="#fff8e0"/>
+        <line x1="-18" y1="-8" x2="-4" y2="-3" stroke="#a78930" stroke-width="0.8"/>
+        <line x1="-18" y1="-4" x2="-4" y2="1" stroke="#a78930" stroke-width="0.8"/>
+        <line x1="18" y1="-8" x2="4" y2="-3" stroke="#a78930" stroke-width="0.8"/>
+        <line x1="18" y1="-4" x2="4" y2="1" stroke="#a78930" stroke-width="0.8"/>
+        <line x1="-14" y1="-22" x2="14" y2="-22" stroke="#D4A54A" stroke-width="5" stroke-linecap="round"/>
+        <path d="M14 -24 L 18 -22 L 14 -20 Z" fill="#3a3a3a"/>
+      </g>
+      <text x="85" y="110" text-anchor="middle" font-family="Inter,sans-serif" font-size="18" font-weight="700" fill="#8a6a20">ENSINAR</text>
+      <text x="85" y="128" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#a78930">Refeição é ato</text>
+      <text x="85" y="142" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#a78930">pedagógico</text>
+    </g>
+  </g>
+
+  <!-- RODAPÉ -->
+  <text x="300" y="690" text-anchor="middle" font-family="Inter,sans-serif" font-size="14" font-weight="600" fill="#3a3a3a" font-style="italic">"Nutrir e ensinar, juntos."</text>
+  <text x="300" y="720" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" font-weight="600" letter-spacing="2.5" fill="#7a6a4a">PAE-DF · EDUCAÇÃO INFANTIL · SEEDF</text>
 </svg>
