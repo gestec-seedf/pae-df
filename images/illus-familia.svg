@@ -182,8 +182,8 @@
     <!-- Sorriso aberto/feliz -->
     <path d="M-5 -2 Q 0 4 5 -2" stroke="#7a2a20" stroke-width="1.6" fill="none" stroke-linecap="round"/>
     <!-- Tag "ESTUDANTE" abaixo -->
-    <rect x="-44" y="55" width="88" height="18" rx="9" fill="#3a3a3a"/>
-    <text x="0" y="67" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" font-weight="700" fill="#fff" letter-spacing="1.5">ESTUDANTE</text>
+    <rect x="-44" y="55" width="88" height="18" rx="9" fill="#E8C94A" stroke="#D4A54A" stroke-width="1"/>
+    <text x="0" y="67" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" font-weight="700" fill="#5a3a23" letter-spacing="1.5">ESTUDANTE</text>
   </g>
 
   <!-- Setas indicando "fluxo" para a criança no centro -->
