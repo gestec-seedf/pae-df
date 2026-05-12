@@ -1,76 +1,155 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520">
   <defs>
-    <linearGradient id="bg-cre" x1="0" x2="0" y1="0" y2="1">
-      <stop offset="0" stop-color="#fdf6e8"/>
-      <stop offset="1" stop-color="#eef7f0"/>
+    <linearGradient id="bg-creche" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#e8f5ed"/>
+      <stop offset="1" stop-color="#fdf6e8"/>
     </linearGradient>
   </defs>
-  <rect width="800" height="520" fill="url(#bg-cre)"/>
-  <!-- window with sunlight -->
-  <rect x="500" y="40" width="200" height="180" rx="8" fill="#87CEEB" opacity="0.3"/>
-  <rect x="500" y="40" width="200" height="180" rx="8" fill="none" stroke="#D4A54A" stroke-width="3"/>
-  <line x1="600" y1="40" x2="600" y2="220" stroke="#D4A54A" stroke-width="2"/>
-  <line x1="500" y1="130" x2="700" y2="130" stroke="#D4A54A" stroke-width="2"/>
-  <!-- sunlight rays -->
-  <g opacity="0.1" fill="#E8C94A">
-    <path d="M500 40 L300 300 L350 300Z"/>
-    <path d="M600 40 L400 300 L450 300Z"/>
-    <path d="M700 40 L500 300 L550 300Z"/>
+
+  <rect width="800" height="520" fill="url(#bg-creche)"/>
+
+  <!-- HEADER -->
+  <text x="400" y="50" text-anchor="middle" font-family="Inter,sans-serif" font-size="11" font-weight="700" letter-spacing="3.5" fill="#4A7C59">FASE 02 · 1A 7M A 3A 11M</text>
+  <text x="400" y="88" text-anchor="middle" font-family="Inter,sans-serif" font-size="32" font-weight="700" fill="#3a3a3a">Creche · <tspan font-style="italic" fill="#4A7C59">autonomia e brincar</tspan></text>
+
+  <!-- Chão -->
+  <ellipse cx="400" cy="470" rx="320" ry="20" fill="#8B5E3C" opacity="0.12"/>
+
+  <!-- MERCADINHO LÚDICO (esquerda) -->
+  <g transform="translate(220,355)">
+    <!-- Banca -->
+    <rect x="-65" y="-10" width="130" height="80" rx="5" fill="#a87545"/>
+    <rect x="-65" y="-10" width="130" height="10" rx="3" fill="#c8905d"/>
+    <rect x="-58" y="40" width="116" height="25" fill="#8b6238"/>
+    <!-- Telhado/toldo listrado -->
+    <path d="M-75 -10 L 75 -10 L 65 -30 L -65 -30 Z" fill="#E87461"/>
+    <rect x="-65" y="-30" width="20" height="20" fill="#fff"/>
+    <rect x="-25" y="-30" width="20" height="20" fill="#fff"/>
+    <rect x="15" y="-30" width="20" height="20" fill="#fff"/>
+    <rect x="55" y="-30" width="20" height="20" fill="#fff" opacity="0.3"/>
+    <rect x="-45" y="-30" width="20" height="20" fill="#E87461"/>
+    <rect x="-5" y="-30" width="20" height="20" fill="#E87461"/>
+    <rect x="35" y="-30" width="20" height="20" fill="#E87461"/>
+    <!-- Placa -->
+    <rect x="-30" y="-50" width="60" height="18" rx="3" fill="#fefdf6" stroke="#4A7C59" stroke-width="1.5"/>
+    <text x="0" y="-37" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" font-weight="700" fill="#4A7C59" letter-spacing="1">FEIRINHA</text>
+    <!-- Frutas/legumes na banca -->
+    <circle cx="-45" cy="-3" r="9" fill="#c83232"/>
+    <circle cx="-25" cy="-3" r="8" fill="#D4A54A"/>
+    <circle cx="-5" cy="-3" r="9" fill="#4A7C59"/>
+    <circle cx="18" cy="-3" r="8" fill="#f57c00"/>
+    <circle cx="40" cy="-3" r="9" fill="#E87461"/>
   </g>
-  <!-- wooden table -->
-  <rect x="80" y="280" width="600" height="20" rx="4" fill="#c8905d"/>
-  <rect x="100" y="300" width="15" height="80" fill="#a07040"/>
-  <rect x="645" y="300" width="15" height="80" fill="#a07040"/>
-  <!-- cups with bean sprouts -->
-  <g>
-    <!-- cup 1 - early stage -->
-    <rect x="140" y="240" width="50" height="40" rx="4" fill="#f5f0e6" stroke="#D4A54A" stroke-width="1.5"/>
-    <rect x="140" y="260" width="50" height="20" rx="0" fill="#8B5E3C" opacity="0.4"/>
-    <line x1="165" y1="240" x2="165" y2="225" stroke="#4A7C59" stroke-width="2"/>
-    <ellipse cx="160" cy="222" rx="6" ry="4" fill="#7CB98A"/>
-    <ellipse cx="170" cy="222" rx="6" ry="4" fill="#4A7C59"/>
-    <text x="165" y="276" text-anchor="middle" font-family="Inter,sans-serif" font-size="7" fill="#8B5E3C">Dia 3</text>
-    <!-- cup 2 - medium stage -->
-    <rect x="250" y="240" width="50" height="40" rx="4" fill="#f5f0e6" stroke="#D4A54A" stroke-width="1.5"/>
-    <rect x="250" y="260" width="50" height="20" rx="0" fill="#8B5E3C" opacity="0.4"/>
-    <line x1="275" y1="240" x2="275" y2="210" stroke="#4A7C59" stroke-width="2.5"/>
-    <ellipse cx="267" cy="207" rx="9" ry="6" fill="#7CB98A"/>
-    <ellipse cx="283" cy="207" rx="9" ry="6" fill="#4A7C59"/>
-    <ellipse cx="270" cy="218" rx="7" ry="4" fill="#5a9a4a"/>
-    <ellipse cx="280" cy="218" rx="7" ry="4" fill="#3d7a2e"/>
-    <text x="275" y="276" text-anchor="middle" font-family="Inter,sans-serif" font-size="7" fill="#8B5E3C">Dia 7</text>
-    <!-- cup 3 - tall stage -->
-    <rect x="360" y="240" width="50" height="40" rx="4" fill="#f5f0e6" stroke="#D4A54A" stroke-width="1.5"/>
-    <rect x="360" y="260" width="50" height="20" rx="0" fill="#8B5E3C" opacity="0.4"/>
-    <line x1="385" y1="240" x2="385" y2="185" stroke="#4A7C59" stroke-width="3"/>
-    <ellipse cx="375" cy="182" rx="12" ry="7" fill="#7CB98A"/>
-    <ellipse cx="395" cy="182" rx="12" ry="7" fill="#4A7C59"/>
-    <ellipse cx="378" cy="198" rx="9" ry="5" fill="#5a9a4a"/>
-    <ellipse cx="392" cy="198" rx="9" ry="5" fill="#3d7a2e"/>
-    <ellipse cx="382" cy="212" rx="7" ry="4" fill="#5a9a4a"/>
-    <ellipse cx="388" cy="212" rx="7" ry="4" fill="#3d7a2e"/>
-    <circle cx="385" cy="178" r="4" fill="#E8C94A"/>
-    <text x="385" y="276" text-anchor="middle" font-family="Inter,sans-serif" font-size="7" fill="#8B5E3C">Dia 14</text>
-    <!-- cup 4 -->
-    <rect x="470" y="240" width="50" height="40" rx="4" fill="#f5f0e6" stroke="#D4A54A" stroke-width="1.5"/>
-    <rect x="470" y="260" width="50" height="20" rx="0" fill="#8B5E3C" opacity="0.4"/>
-    <circle cx="495" cy="252" r="6" fill="#D4A54A" opacity="0.5"/>
-    <text x="495" y="276" text-anchor="middle" font-family="Inter,sans-serif" font-size="7" fill="#8B5E3C">Dia 1</text>
+
+  <!-- CRIANÇA NO MERCADINHO -->
+  <g transform="translate(380,350)">
+    <!-- Pernas -->
+    <rect x="-12" y="50" width="10" height="30" rx="3" fill="#5a3a23"/>
+    <rect x="2" y="50" width="10" height="30" rx="3" fill="#5a3a23"/>
+    <ellipse cx="-7" cy="82" rx="8" ry="4" fill="#3a1f10"/>
+    <ellipse cx="7" cy="82" rx="8" ry="4" fill="#3a1f10"/>
+    <!-- Corpo (vestido amarelo) -->
+    <path d="M-25 -5 L 25 -5 L 32 55 L -32 55 Z" fill="#D4A54A"/>
+    <!-- Bolinhas no vestido -->
+    <circle cx="-15" cy="15" r="2.5" fill="#fff" opacity="0.7"/>
+    <circle cx="10" cy="25" r="2.5" fill="#fff" opacity="0.7"/>
+    <circle cx="-5" cy="35" r="2.5" fill="#fff" opacity="0.7"/>
+    <circle cx="18" cy="45" r="2.5" fill="#fff" opacity="0.7"/>
+    <!-- Bracinho com cestinha -->
+    <path d="M-25 5 Q -38 15 -42 35" stroke="#D4A54A" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <circle cx="-42" cy="35" r="5" fill="#fdc998"/>
+    <!-- Bracinho direito -->
+    <path d="M25 5 Q 32 15 30 25" stroke="#D4A54A" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <circle cx="30" cy="25" r="5" fill="#fdc998"/>
+    <!-- Pescoço -->
+    <path d="M-6 -12 L 6 -12 L 7 -6 L -7 -6 Z" fill="#d8a878"/>
+    <!-- Cabeça grande -->
+    <ellipse cx="0" cy="-38" rx="22" ry="24" fill="#fdc998"/>
+    <ellipse cx="-22" cy="-38" rx="4" ry="6" fill="#d8a878"/>
+    <ellipse cx="22" cy="-38" rx="4" ry="6" fill="#d8a878"/>
+    <!-- Cabelo cacheado com marias-chiquinhas -->
+    <ellipse cx="0" cy="-50" rx="24" ry="15" fill="#6e4828"/>
+    <circle cx="-18" cy="-55" r="7" fill="#6e4828"/>
+    <circle cx="18" cy="-55" r="7" fill="#6e4828"/>
+    <!-- Maria-chiquinhas com lacinhos -->
+    <circle cx="-26" cy="-50" r="4" fill="#E87461"/>
+    <circle cx="26" cy="-50" r="4" fill="#E87461"/>
+    <path d="M-30 -52 L -22 -48 L -30 -45 Z" fill="#E87461"/>
+    <path d="M30 -52 L 22 -48 L 30 -45 Z" fill="#E87461"/>
+    <!-- Sobrancelhas -->
+    <path d="M-10 -42 Q -7 -45 -3 -42" stroke="#5a3a23" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <path d="M3 -42 Q 7 -45 10 -42" stroke="#5a3a23" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <!-- Olhos grandes -->
+    <ellipse cx="-7" cy="-37" rx="3" ry="3.5" fill="#fff"/>
+    <ellipse cx="7" cy="-37" rx="3" ry="3.5" fill="#fff"/>
+    <circle cx="-7" cy="-36" r="2" fill="#3a1f10"/>
+    <circle cx="7" cy="-36" r="2" fill="#3a1f10"/>
+    <circle cx="-6" cy="-37" r="0.8" fill="#fff"/>
+    <circle cx="8" cy="-37" r="0.8" fill="#fff"/>
+    <!-- Bochechas -->
+    <circle cx="-14" cy="-28" r="4" fill="#E87461" opacity="0.4"/>
+    <circle cx="14" cy="-28" r="4" fill="#E87461" opacity="0.4"/>
+    <!-- Sorriso -->
+    <path d="M-5 -22 Q 0 -16 5 -22" stroke="#7a2a20" stroke-width="1.8" fill="none" stroke-linecap="round"/>
   </g>
-  <!-- child hand with watering can -->
-  <g transform="translate(550 230)">
-    <rect x="0" y="0" width="30" height="25" rx="3" fill="#5B9BD5"/>
-    <path d="M30 5 L45 -5 L47 -3 L32 7Z" fill="#5B9BD5"/>
-    <rect x="8" y="-6" width="12" height="6" rx="2" fill="#89BDE5"/>
-    <circle cx="48" cy="0" r="2" fill="#89BDE5" opacity="0.5"/>
-    <circle cx="46" cy="6" r="2" fill="#89BDE5" opacity="0.4"/>
-    <!-- child arm -->
-    <path d="M-10 10 Q-15 5 -10 0 L0 5 L0 15Z" fill="#c8905d"/>
+
+  <!-- CESTINHA com alimentos -->
+  <g transform="translate(338,400)">
+    <path d="M-18 -8 Q 0 -16 18 -8" stroke="#5a3a23" stroke-width="2.5" fill="none"/>
+    <path d="M-22 -8 L 22 -8 L 18 14 L -18 14 Z" fill="#a87545"/>
+    <path d="M-22 -8 L 22 -8 L 20 -5 L -20 -5 Z" fill="#c8905d"/>
+    <circle cx="-10" cy="-3" r="6" fill="#c83232"/>
+    <circle cx="2" cy="-5" r="6" fill="#D4A54A"/>
+    <circle cx="12" cy="-3" r="6" fill="#4A7C59"/>
+    <ellipse cx="5" cy="-11" rx="4" ry="2" fill="#3D6849"/>
   </g>
-  <!-- water drops -->
-  <g fill="#89BDE5" opacity="0.4">
-    <circle cx="400" cy="165" r="2"/>
-    <circle cx="395" cy="175" r="1.5"/>
-    <circle cx="405" cy="172" r="1.5"/>
+
+  <!-- PLANTINHA DE FEIJÃO (direita) -->
+  <g transform="translate(620,400)">
+    <!-- Copo de vidro -->
+    <path d="M-18 0 L 18 0 L 15 35 L -15 35 Z" fill="#cce8f2" opacity="0.6"/>
+    <ellipse cx="0" cy="0" rx="18" ry="4" fill="#7ccae0" opacity="0.7"/>
+    <!-- Terra -->
+    <ellipse cx="0" cy="2" rx="15" ry="3" fill="#5a3a23"/>
+    <!-- Caule -->
+    <path d="M0 0 Q 2 -25 -3 -50" stroke="#4A7C59" stroke-width="3" fill="none"/>
+    <!-- Folhas -->
+    <ellipse cx="-8" cy="-25" rx="8" ry="4" fill="#4A7C59" transform="rotate(-30 -8 -25)"/>
+    <ellipse cx="5" cy="-35" rx="10" ry="5" fill="#5A9A6E" transform="rotate(20 5 -35)"/>
+    <ellipse cx="-5" cy="-48" rx="8" ry="4" fill="#4A7C59" transform="rotate(-15 -5 -48)"/>
+    <!-- Grão -->
+    <ellipse cx="0" cy="-3" rx="4" ry="2.5" fill="#3a1f10"/>
+    <!-- Etiqueta no copo -->
+    <rect x="-15" y="15" width="30" height="12" rx="2" fill="#fff"/>
+    <text x="0" y="24" text-anchor="middle" font-family="Inter,sans-serif" font-size="7" font-weight="700" fill="#4A7C59">FEIJÃO</text>
+  </g>
+
+  <!-- 3 BADGES -->
+  <g transform="translate(140,455)">
+    <rect width="160" height="32" rx="16" fill="#fff" stroke="#7CB98A" stroke-width="1.5"/>
+    <g transform="translate(22,16)">
+      <path d="M-7 -6 L 7 -6 L 5 6 L -5 6 Z" fill="#a87545"/>
+      <ellipse cx="0" cy="-6" rx="7" ry="2" fill="#8b6238"/>
+      <circle cx="-2" cy="-1" r="2" fill="#c83232"/>
+      <circle cx="2" cy="-2" r="2" fill="#D4A54A"/>
+    </g>
+    <text x="95" y="21" text-anchor="middle" font-family="Inter,sans-serif" font-size="11" font-weight="700" fill="#2d5a3a" letter-spacing="0.5">AUTONOMIA</text>
+  </g>
+  <g transform="translate(320,455)">
+    <rect width="160" height="32" rx="16" fill="#fff" stroke="#7CB98A" stroke-width="1.5"/>
+    <g transform="translate(22,16)">
+      <line x1="0" y1="6" x2="0" y2="-2" stroke="#4A7C59" stroke-width="2"/>
+      <ellipse cx="-3" cy="-4" rx="4" ry="2" fill="#4A7C59" transform="rotate(-30 -3 -4)"/>
+      <ellipse cx="3" cy="-6" rx="4" ry="2" fill="#5A9A6E" transform="rotate(30 3 -6)"/>
+    </g>
+    <text x="95" y="21" text-anchor="middle" font-family="Inter,sans-serif" font-size="11" font-weight="700" fill="#2d5a3a" letter-spacing="0.5">PLANTAR</text>
+  </g>
+  <g transform="translate(500,455)">
+    <rect width="160" height="32" rx="16" fill="#fff" stroke="#7CB98A" stroke-width="1.5"/>
+    <g transform="translate(22,16)">
+      <rect x="-7" y="-6" width="14" height="12" rx="2" fill="#fff" stroke="#4A7C59" stroke-width="1.2"/>
+      <circle cx="0" cy="0" r="3" fill="#E87461"/>
+    </g>
+    <text x="95" y="21" text-anchor="middle" font-family="Inter,sans-serif" font-size="11" font-weight="700" fill="#2d5a3a" letter-spacing="0.5">BRINCAR</text>
   </g>
 </svg>
