@@ -95,27 +95,27 @@
         <rect x="0" y="-8" width="14" height="14" rx="3" fill="#4A7C59"/>
         <path d="M3 -1 L 6 2 L 11 -4" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
         <text x="22" y="2">Adesão semanal por turma</text>
-        <text x="480" y="2" text-anchor="end" font-size="9" fill="#4A7C59" font-weight="700">CONCLUÍDO</text>
+        <text x="455" y="2" text-anchor="end" font-size="9" fill="#4A7C59" font-weight="700">CONCLUÍDO</text>
       </g>
       <!-- Item 2 -->
       <g transform="translate(0,28)">
         <rect x="0" y="-8" width="14" height="14" rx="3" fill="#4A7C59"/>
         <path d="M3 -1 L 6 2 L 11 -4" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
         <text x="22" y="2">Análise qualitativa dos cardápios</text>
-        <text x="480" y="2" text-anchor="end" font-size="9" fill="#4A7C59" font-weight="700">CONCLUÍDO</text>
+        <text x="455" y="2" text-anchor="end" font-size="9" fill="#4A7C59" font-weight="700">CONCLUÍDO</text>
       </g>
       <!-- Item 3 -->
       <g transform="translate(0,56)">
         <rect x="0" y="-8" width="14" height="14" rx="3" fill="#D4A54A"/>
         <text x="7" y="3" text-anchor="middle" font-size="10" font-weight="700" fill="white">!</text>
         <text x="22" y="2">Registro fotográfico das refeições</text>
-        <text x="480" y="2" text-anchor="end" font-size="9" fill="#D4A54A" font-weight="700">EM ANDAMENTO</text>
+        <text x="455" y="2" text-anchor="end" font-size="9" fill="#D4A54A" font-weight="700">EM ANDAMENTO</text>
       </g>
       <!-- Item 4 -->
       <g transform="translate(0,84)">
         <rect x="0" y="-8" width="14" height="14" rx="3" fill="#fff" stroke="#aaa" stroke-width="1.5"/>
         <text x="22" y="2">Avaliação familiar — questionário</text>
-        <text x="480" y="2" text-anchor="end" font-size="9" fill="#aaa" font-weight="700">PENDENTE</text>
+        <text x="455" y="2" text-anchor="end" font-size="9" fill="#aaa" font-weight="700">PENDENTE</text>
       </g>
     </g>
   </g>
