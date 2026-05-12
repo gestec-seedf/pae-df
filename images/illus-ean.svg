@@ -4,162 +4,301 @@
       <stop offset="0" stop-color="#fdf6e8"/>
       <stop offset="1" stop-color="#f5f0e6"/>
     </linearGradient>
-    <radialGradient id="prato-grad" cx="50%" cy="40%" r="60%">
-      <stop offset="0" stop-color="#fefcf5"/>
-      <stop offset="0.82" stop-color="#f8f1de"/>
-      <stop offset="1" stop-color="#e8dec4"/>
+    <radialGradient id="luz-verde" cx="40%" cy="35%" r="60%">
+      <stop offset="0" stop-color="#a8e6b8"/>
+      <stop offset="0.7" stop-color="#4A7C59"/>
+      <stop offset="1" stop-color="#2d5a3a"/>
+    </radialGradient>
+    <radialGradient id="luz-amarela" cx="40%" cy="35%" r="60%">
+      <stop offset="0" stop-color="#fff0a0"/>
+      <stop offset="0.7" stop-color="#E8C94A"/>
+      <stop offset="1" stop-color="#8a6a20"/>
+    </radialGradient>
+    <radialGradient id="luz-vermelha" cx="40%" cy="35%" r="60%">
+      <stop offset="0" stop-color="#ffb8a8"/>
+      <stop offset="0.7" stop-color="#E87461"/>
+      <stop offset="1" stop-color="#7a2a20"/>
     </radialGradient>
   </defs>
 
   <rect width="800" height="520" fill="url(#bg-ean)"/>
 
-  <!-- Header -->
-  <text x="400" y="48" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" font-weight="700" letter-spacing="3.5" fill="#7a6a4a">GUIA ALIMENTAR · POPULAÇÃO BRASILEIRA</text>
-  <text x="400" y="78" text-anchor="middle" font-family="Inter,sans-serif" font-size="22" font-weight="700" fill="#4A7C59" font-style="italic">comida de verdade</text>
+  <!-- TÍTULO -->
+  <text x="400" y="46" text-anchor="middle" font-family="Inter,sans-serif" font-size="11" font-weight="700" letter-spacing="3.5" fill="#7a6a4a">EDUCAÇÃO ALIMENTAR E NUTRICIONAL</text>
+  <text x="400" y="76" text-anchor="middle" font-family="Inter,sans-serif" font-size="24" font-weight="700" fill="#3a3a3a">Semáforo dos <tspan font-style="italic" fill="#4A7C59">Alimentos</tspan></text>
 
-  <!-- Sombra da mesa -->
-  <ellipse cx="400" cy="430" rx="260" ry="22" fill="#8B5E3C" opacity="0.12"/>
+  <!-- ============ SEMÁFORO FÍSICO (lado esquerdo) ============ -->
+  <g transform="translate(150,290)">
+    <!-- Base -->
+    <rect x="-30" y="170" width="60" height="14" rx="3" fill="#2a2a2a"/>
+    <rect x="-6" y="155" width="12" height="18" fill="#3a3a3a"/>
+    <!-- Corpo do semáforo -->
+    <rect x="-55" y="-170" width="110" height="335" rx="22" fill="#2a2a2a"/>
+    <rect x="-48" y="-163" width="96" height="321" rx="17" fill="#3a3a3a"/>
+    <!-- Topo (chapéu/aba) -->
+    <rect x="-60" y="-178" width="120" height="14" rx="4" fill="#1f1f1f"/>
 
-  <!-- Prato (borda externa + corpo + linha interna) -->
-  <ellipse cx="400" cy="295" rx="225" ry="155" fill="#fdfdf8" stroke="#d4c8a8" stroke-width="2.5"/>
-  <ellipse cx="400" cy="295" rx="195" ry="130" fill="url(#prato-grad)"/>
-  <ellipse cx="400" cy="295" rx="170" ry="110" fill="none" stroke="#e8d8a8" stroke-width="0.8" opacity="0.5"/>
+    <!-- LUZ VERDE -->
+    <circle cx="0" cy="-110" r="38" fill="url(#luz-verde)"/>
+    <circle cx="-10" cy="-122" r="10" fill="#fff" opacity="0.35"/>
+    <!-- check -->
+    <path d="M-15 -110 L -3 -98 L 18 -125" stroke="white" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
 
-  <!-- ============ SALADA VERDE (top-left) ============ -->
-  <g>
-    <ellipse cx="330" cy="248" rx="40" ry="22" fill="#4A7C59" opacity="0.85" transform="rotate(-20 330 248)"/>
-    <ellipse cx="355" cy="235" rx="32" ry="17" fill="#5A9A6E" opacity="0.85" transform="rotate(15 355 235)"/>
-    <ellipse cx="315" cy="270" rx="26" ry="15" fill="#3D6849" opacity="0.85" transform="rotate(35 315 270)"/>
-    <ellipse cx="370" cy="260" rx="22" ry="13" fill="#6BAA80" opacity="0.85" transform="rotate(-5 370 260)"/>
-    <!-- Tomatinhos -->
-    <circle cx="350" cy="262" r="8" fill="#E87461"/>
-    <circle cx="372" cy="248" r="7" fill="#E87461"/>
-    <ellipse cx="348" cy="259" rx="2" ry="1.5" fill="#fff" opacity="0.7"/>
-    <ellipse cx="370" cy="245" rx="2" ry="1.5" fill="#fff" opacity="0.7"/>
+    <!-- LUZ AMARELA -->
+    <circle cx="0" cy="0" r="38" fill="url(#luz-amarela)"/>
+    <circle cx="-10" cy="-12" r="10" fill="#fff" opacity="0.35"/>
+    <!-- exclamação -->
+    <rect x="-6" y="-22" width="12" height="28" rx="3" fill="#fff"/>
+    <circle cx="0" cy="16" r="6" fill="#fff"/>
+
+    <!-- LUZ VERMELHA -->
+    <circle cx="0" cy="110" r="38" fill="url(#luz-vermelha)"/>
+    <circle cx="-10" cy="98" r="10" fill="#fff" opacity="0.35"/>
+    <!-- X -->
+    <line x1="-18" y1="92" x2="18" y2="128" stroke="white" stroke-width="6" stroke-linecap="round"/>
+    <line x1="18" y1="92" x2="-18" y2="128" stroke="white" stroke-width="6" stroke-linecap="round"/>
   </g>
 
-  <!-- ============ ARROZ (top-right) ============ -->
-  <g>
-    <ellipse cx="470" cy="252" rx="60" ry="36" fill="#fdf6e8"/>
-    <ellipse cx="470" cy="252" rx="58" ry="34" fill="#fefdf6"/>
-    <!-- Grãos -->
-    <ellipse cx="450" cy="244" rx="3" ry="1.5" fill="#d4c8a8" transform="rotate(20 450 244)"/>
-    <ellipse cx="462" cy="252" rx="3" ry="1.5" fill="#c8b888" transform="rotate(-15 462 252)"/>
-    <ellipse cx="478" cy="246" rx="3" ry="1.5" fill="#d4c8a8" transform="rotate(45 478 246)"/>
-    <ellipse cx="470" cy="263" rx="3" ry="1.5" fill="#c8b888"/>
-    <ellipse cx="458" cy="263" rx="3" ry="1.5" fill="#d4c8a8" transform="rotate(60 458 263)"/>
-    <ellipse cx="486" cy="266" rx="3" ry="1.5" fill="#c8b888" transform="rotate(-30 486 266)"/>
-    <ellipse cx="495" cy="252" rx="3" ry="1.5" fill="#d4c8a8" transform="rotate(15 495 252)"/>
-    <ellipse cx="445" cy="258" rx="3" ry="1.5" fill="#c8b888" transform="rotate(-45 445 258)"/>
-    <ellipse cx="476" cy="270" rx="3" ry="1.5" fill="#d4c8a8" transform="rotate(80 476 270)"/>
-    <ellipse cx="500" cy="262" rx="3" ry="1.5" fill="#c8b888" transform="rotate(-20 500 262)"/>
-    <ellipse cx="455" cy="270" rx="3" ry="1.5" fill="#d4c8a8" transform="rotate(0 455 270)"/>
-    <ellipse cx="490" cy="248" rx="3" ry="1.5" fill="#c8b888" transform="rotate(35 490 248)"/>
+  <!-- ============ FAIXA VERDE — PREFIRA ============ -->
+  <g transform="translate(260,135)">
+    <rect width="490" height="105" rx="14" fill="#e8f5ed" stroke="#7CB98A" stroke-width="2"/>
+    <rect width="10" height="105" rx="3" fill="#4A7C59"/>
+    <text x="30" y="32" font-family="Inter,sans-serif" font-size="22" font-weight="700" fill="#2d5a3a">PREFIRA</text>
+    <text x="30" y="52" font-family="Inter,sans-serif" font-size="11" font-weight="500" fill="#4A7C59">Frutas, legumes, verduras, cereais integrais e leguminosas</text>
+
+    <!-- Alimentos -->
+    <!-- Maçã -->
+    <g transform="translate(50,80)">
+      <circle cx="0" cy="0" r="12" fill="#c83232"/>
+      <circle cx="-3" cy="-3" r="4" fill="#e87461" opacity="0.55"/>
+      <path d="M0 -11 Q 1 -15 4 -15" stroke="#5a3a23" stroke-width="1.5" fill="none"/>
+      <ellipse cx="5" cy="-13" rx="3" ry="1.2" fill="#4A7C59" transform="rotate(25 5 -13)"/>
+    </g>
+    <!-- Banana -->
+    <g transform="translate(95,80) rotate(15)">
+      <path d="M-10 0 Q -10 -16 0 -22 Q 8 -20 12 -12 Q 8 4 -10 0 Z" fill="#D4A54A"/>
+      <path d="M-8 -2 Q -8 -14 -1 -19 Q 5 -17 8 -10 Q 4 1 -8 -2 Z" fill="#E8C94A"/>
+    </g>
+    <!-- Cenoura -->
+    <g transform="translate(140,82)">
+      <path d="M0 -10 L 8 14 L -8 14 Z" fill="#f57c00"/>
+      <path d="M-2 -10 Q -1 -16 -5 -18" stroke="#4A7C59" stroke-width="2" fill="none"/>
+      <path d="M2 -10 Q 1 -17 5 -18" stroke="#4A7C59" stroke-width="2" fill="none"/>
+      <path d="M0 -10 Q 0 -17 0 -19" stroke="#4A7C59" stroke-width="2" fill="none"/>
+    </g>
+    <!-- Brócolis -->
+    <g transform="translate(185,82)">
+      <rect x="-4" y="-2" width="8" height="14" rx="2" fill="#e8dec4"/>
+      <circle cx="-7" cy="-5" r="6" fill="#4A7C59"/>
+      <circle cx="0" cy="-9" r="7" fill="#5A9A6E"/>
+      <circle cx="7" cy="-5" r="6" fill="#4A7C59"/>
+      <circle cx="-3" cy="-12" r="4" fill="#5A9A6E"/>
+      <circle cx="4" cy="-12" r="4" fill="#5A9A6E"/>
+    </g>
+    <!-- Tomate -->
+    <g transform="translate(230,82)">
+      <circle cx="0" cy="2" r="11" fill="#E87461"/>
+      <circle cx="-3" cy="-1" r="3" fill="#fff" opacity="0.4"/>
+      <path d="M-5 -8 L 0 -10 L 5 -8" stroke="#4A7C59" stroke-width="2" fill="none" stroke-linecap="round"/>
+    </g>
+    <!-- Pão integral -->
+    <g transform="translate(275,82)">
+      <ellipse cx="0" cy="2" rx="13" ry="9" fill="#a87545"/>
+      <ellipse cx="0" cy="-1" rx="11" ry="6" fill="#c8905d"/>
+      <line x1="-6" y1="-1" x2="-6" y2="3" stroke="#6e4828" stroke-width="0.8"/>
+      <line x1="0" y1="-2" x2="0" y2="4" stroke="#6e4828" stroke-width="0.8"/>
+      <line x1="6" y1="-1" x2="6" y2="3" stroke="#6e4828" stroke-width="0.8"/>
+    </g>
+    <!-- Feijão (tigelinha) -->
+    <g transform="translate(320,82)">
+      <path d="M-14 -2 Q -14 8 0 10 Q 14 8 14 -2 Z" fill="#5a3a23"/>
+      <ellipse cx="0" cy="-2" rx="14" ry="3" fill="#3a1f10"/>
+      <circle cx="-4" cy="-2" r="2" fill="#2a1408"/>
+      <circle cx="3" cy="-3" r="2" fill="#2a1408"/>
+      <circle cx="0" cy="0" r="2" fill="#2a1408"/>
+    </g>
+    <!-- Peixe -->
+    <g transform="translate(370,82)">
+      <ellipse cx="-3" cy="0" rx="14" ry="8" fill="#7ccae0"/>
+      <path d="M11 0 L 18 -6 L 18 6 Z" fill="#7ccae0"/>
+      <circle cx="-8" cy="-2" r="1.5" fill="#3a3a3a"/>
+      <line x1="-6" y1="-2" x2="-6" y2="2" stroke="#5b9bd5" stroke-width="0.8"/>
+      <line x1="-2" y1="-3" x2="-2" y2="3" stroke="#5b9bd5" stroke-width="0.8"/>
+      <line x1="2" y1="-3" x2="2" y2="3" stroke="#5b9bd5" stroke-width="0.8"/>
+    </g>
+    <!-- Ovo -->
+    <g transform="translate(415,82)">
+      <ellipse cx="0" cy="0" rx="10" ry="13" fill="#fefdf6"/>
+      <ellipse cx="-2" cy="-3" rx="3" ry="4" fill="#fff" opacity="0.7"/>
+    </g>
+    <!-- Folha verde -->
+    <g transform="translate(455,82)">
+      <ellipse cx="0" cy="0" rx="12" ry="8" fill="#4A7C59" transform="rotate(-25 0 0)"/>
+      <path d="M-8 4 Q 0 -2 8 -4" stroke="#3D6849" stroke-width="1" fill="none"/>
+    </g>
   </g>
 
-  <!-- ============ FEIJÃO (bottom-left) ============ -->
-  <g>
-    <ellipse cx="335" cy="335" rx="52" ry="30" fill="#3a1f10"/>
-    <ellipse cx="335" cy="335" rx="48" ry="26" fill="#5a3a23"/>
-    <ellipse cx="324" cy="330" rx="5" ry="3.5" fill="#2a1408"/>
-    <ellipse cx="340" cy="325" rx="5" ry="3.5" fill="#2a1408"/>
-    <ellipse cx="352" cy="334" rx="5" ry="3.5" fill="#2a1408"/>
-    <ellipse cx="328" cy="340" rx="5" ry="3.5" fill="#2a1408"/>
-    <ellipse cx="318" cy="343" rx="5" ry="3.5" fill="#2a1408"/>
-    <ellipse cx="346" cy="343" rx="5" ry="3.5" fill="#2a1408"/>
-    <ellipse cx="335" cy="332" rx="5" ry="3.5" fill="#2a1408"/>
-    <ellipse cx="362" cy="338" rx="5" ry="3.5" fill="#2a1408"/>
-    <ellipse cx="322" cy="320" rx="10" ry="3" fill="#fff" opacity="0.12"/>
+  <!-- ============ FAIXA AMARELA — LIMITE ============ -->
+  <g transform="translate(260,250)">
+    <rect width="490" height="105" rx="14" fill="#fdf6e0" stroke="#E8C94A" stroke-width="2"/>
+    <rect width="10" height="105" rx="3" fill="#D4A54A"/>
+    <text x="30" y="32" font-family="Inter,sans-serif" font-size="22" font-weight="700" fill="#8a6a20">LIMITE</text>
+    <text x="30" y="52" font-family="Inter,sans-serif" font-size="11" font-weight="500" fill="#a78930">Ingredientes culinários e processados — usar com moderação</text>
+
+    <!-- Açúcar -->
+    <g transform="translate(50,82)">
+      <rect x="-12" y="-8" width="24" height="18" rx="2" fill="#fff" stroke="#aaa" stroke-width="1"/>
+      <text x="0" y="3" text-anchor="middle" font-family="Inter,sans-serif" font-size="7" font-weight="700" fill="#8a6a20">AÇÚCAR</text>
+    </g>
+    <!-- Sal -->
+    <g transform="translate(95,82)">
+      <rect x="-10" y="-10" width="20" height="20" rx="3" fill="#aaa"/>
+      <rect x="-8" y="-12" width="16" height="4" rx="1" fill="#888"/>
+      <circle cx="-2" cy="-10" r="0.8" fill="#fff"/>
+      <circle cx="2" cy="-10" r="0.8" fill="#fff"/>
+      <circle cx="0" cy="-11" r="0.8" fill="#fff"/>
+      <text x="0" y="3" text-anchor="middle" font-family="Inter,sans-serif" font-size="6" font-weight="700" fill="#fff">SAL</text>
+    </g>
+    <!-- Óleo -->
+    <g transform="translate(140,82)">
+      <path d="M-8 -12 L 8 -12 L 10 12 L -10 12 Z" fill="#E8C94A"/>
+      <rect x="-6" y="-15" width="12" height="3" rx="1" fill="#a87545"/>
+      <ellipse cx="0" cy="0" rx="6" ry="2" fill="#D4A54A" opacity="0.5"/>
+    </g>
+    <!-- Queijo -->
+    <g transform="translate(185,82)">
+      <path d="M-13 5 L 13 5 L 10 -10 L -10 -10 Z" fill="#fff0a0"/>
+      <path d="M-13 5 L -10 -10 L -10 5 Z" fill="#E8C94A" opacity="0.5"/>
+      <circle cx="-4" cy="0" r="2" fill="#fff" stroke="#D4A54A" stroke-width="0.6"/>
+      <circle cx="4" cy="2" r="1.5" fill="#fff" stroke="#D4A54A" stroke-width="0.6"/>
+      <circle cx="0" cy="-3" r="1.2" fill="#fff" stroke="#D4A54A" stroke-width="0.6"/>
+    </g>
+    <!-- Manteiga -->
+    <g transform="translate(230,82)">
+      <path d="M-12 -8 L 12 -8 L 10 8 L -10 8 Z" fill="#fdf6c0"/>
+      <path d="M-12 -8 L 12 -8 L 8 -4 L -8 -4 Z" fill="#fff8e0"/>
+    </g>
+    <!-- Pão branco/industrial -->
+    <g transform="translate(275,82)">
+      <ellipse cx="0" cy="0" rx="13" ry="9" fill="#fdf6c0"/>
+      <ellipse cx="0" cy="-3" rx="11" ry="6" fill="#fff8e0"/>
+    </g>
+    <!-- Conserva (vidro) -->
+    <g transform="translate(320,82)">
+      <rect x="-9" y="-12" width="18" height="22" rx="2" fill="#7ccae0" opacity="0.5"/>
+      <rect x="-10" y="-15" width="20" height="4" rx="1" fill="#aaa"/>
+      <circle cx="-3" cy="-5" r="2" fill="#4A7C59"/>
+      <circle cx="3" cy="0" r="2" fill="#E87461"/>
+      <circle cx="-3" cy="5" r="2" fill="#4A7C59"/>
+    </g>
+    <!-- Sardinha em lata -->
+    <g transform="translate(370,82)">
+      <ellipse cx="0" cy="0" rx="14" ry="8" fill="#aaa"/>
+      <ellipse cx="0" cy="-1" rx="12" ry="6" fill="#a87545"/>
+      <line x1="-9" y1="-3" x2="-6" y2="0" stroke="#6e4828" stroke-width="0.8"/>
+      <line x1="-3" y1="-3" x2="0" y2="0" stroke="#6e4828" stroke-width="0.8"/>
+      <line x1="3" y1="-3" x2="6" y2="0" stroke="#6e4828" stroke-width="0.8"/>
+    </g>
+    <!-- Geleia (potinho) -->
+    <g transform="translate(415,82)">
+      <rect x="-9" y="-10" width="18" height="20" rx="2" fill="#E87461" opacity="0.6"/>
+      <rect x="-10" y="-13" width="20" height="4" rx="1" fill="#aaa"/>
+      <text x="0" y="3" text-anchor="middle" font-family="Inter,sans-serif" font-size="6" font-weight="700" fill="#fff">GELEIA</text>
+    </g>
+    <!-- Mel -->
+    <g transform="translate(460,82)">
+      <path d="M-8 -10 L 8 -10 L 10 10 L -10 10 Z" fill="#D4A54A"/>
+      <path d="M-6 -12 L 6 -12 L 8 -10 L -8 -10 Z" fill="#a87545"/>
+      <text x="0" y="3" text-anchor="middle" font-family="Inter,sans-serif" font-size="5" font-weight="700" fill="#fff">MEL</text>
+    </g>
   </g>
 
-  <!-- ============ PROTEÍNA — PEIXE GRELHADO (bottom-right) ============ -->
-  <g>
-    <ellipse cx="470" cy="335" rx="58" ry="22" fill="#a87545" transform="rotate(-8 470 335)"/>
-    <ellipse cx="470" cy="335" rx="52" ry="17" fill="#c8905d" transform="rotate(-8 470 335)"/>
-    <!-- Linhas de grelhado -->
-    <line x1="438" y1="332" x2="498" y2="340" stroke="#5a3a23" stroke-width="1.5" opacity="0.7"/>
-    <line x1="438" y1="340" x2="498" y2="348" stroke="#5a3a23" stroke-width="1.5" opacity="0.7"/>
-    <!-- Limão -->
-    <circle cx="510" cy="350" r="9" fill="#D4A54A"/>
-    <circle cx="510" cy="350" r="7" fill="#E8C94A"/>
-    <line x1="510" y1="345" x2="510" y2="355" stroke="#fff" stroke-width="0.5" opacity="0.6"/>
-    <line x1="505" y1="350" x2="515" y2="350" stroke="#fff" stroke-width="0.5" opacity="0.6"/>
-    <!-- Folha de salsinha -->
-    <ellipse cx="445" cy="320" rx="6" ry="3" fill="#4A7C59" transform="rotate(-30 445 320)"/>
+  <!-- ============ FAIXA VERMELHA — EVITE ============ -->
+  <g transform="translate(260,365)">
+    <rect width="490" height="105" rx="14" fill="#fdebe7" stroke="#F5A08F" stroke-width="2"/>
+    <rect width="10" height="105" rx="3" fill="#E87461"/>
+    <text x="30" y="32" font-family="Inter,sans-serif" font-size="22" font-weight="700" fill="#7a2a20">EVITE</text>
+    <text x="30" y="52" font-family="Inter,sans-serif" font-size="11" font-weight="500" fill="#a04030">Ultraprocessados — refrigerantes, doces e salgadinhos industriais</text>
+
+    <!-- Refrigerante -->
+    <g transform="translate(50,82)">
+      <rect x="-7" y="-14" width="14" height="22" rx="2" fill="#c83232"/>
+      <rect x="-8" y="-16" width="16" height="4" rx="1" fill="#888"/>
+      <rect x="-7" y="-10" width="14" height="3" fill="#fff" opacity="0.4"/>
+      <line x1="-12" y1="6" x2="12" y2="6" stroke="#fff" stroke-width="2"/>
+    </g>
+    <!-- Salgadinho (pacote) -->
+    <g transform="translate(95,82)">
+      <path d="M-10 -12 L 10 -12 L 12 10 L -12 10 Z" fill="#E87461"/>
+      <path d="M-8 -14 L 8 -14 L 10 -10 L -10 -10 Z" fill="#c83232"/>
+      <path d="M8 14 L -8 14 L -10 10 L 10 10 Z" fill="#c83232"/>
+      <line x1="-13" y1="0" x2="13" y2="0" stroke="#fff" stroke-width="3"/>
+    </g>
+    <!-- Biscoito recheado -->
+    <g transform="translate(140,82)">
+      <circle cx="0" cy="0" r="11" fill="#5a3a23"/>
+      <circle cx="0" cy="0" r="9" fill="#3a1f10"/>
+      <rect x="-9" y="-1.5" width="18" height="3" fill="#fefdf6"/>
+      <circle cx="-5" cy="-5" r="0.8" fill="#fefdf6"/>
+      <circle cx="5" cy="5" r="0.8" fill="#fefdf6"/>
+      <line x1="-10" y1="6" x2="10" y2="6" stroke="#fff" stroke-width="2.5"/>
+    </g>
+    <!-- Chocolate (barra) -->
+    <g transform="translate(185,82)">
+      <rect x="-11" y="-9" width="22" height="18" rx="2" fill="#5a3a23"/>
+      <rect x="-9" y="-7" width="6" height="6" rx="1" fill="#3a1f10"/>
+      <rect x="-2" y="-7" width="6" height="6" rx="1" fill="#3a1f10"/>
+      <rect x="5" y="-7" width="6" height="6" rx="1" fill="#3a1f10"/>
+      <rect x="-9" y="1" width="6" height="6" rx="1" fill="#3a1f10"/>
+      <rect x="-2" y="1" width="6" height="6" rx="1" fill="#3a1f10"/>
+      <rect x="5" y="1" width="6" height="6" rx="1" fill="#3a1f10"/>
+      <line x1="-13" y1="0" x2="13" y2="0" stroke="#fff" stroke-width="2.5"/>
+    </g>
+    <!-- Hambúrguer -->
+    <g transform="translate(230,82)">
+      <ellipse cx="0" cy="-7" rx="13" ry="6" fill="#D4A54A"/>
+      <rect x="-13" y="-3" width="26" height="3" fill="#4A7C59"/>
+      <rect x="-13" y="0" width="26" height="3" fill="#6e4828"/>
+      <ellipse cx="0" cy="7" rx="13" ry="5" fill="#D4A54A"/>
+      <line x1="-15" y1="0" x2="15" y2="0" stroke="#fff" stroke-width="2.5"/>
+    </g>
+    <!-- Sorvete -->
+    <g transform="translate(275,82)">
+      <path d="M-9 -2 L 9 -2 L 0 14 Z" fill="#E8C94A"/>
+      <circle cx="0" cy="-5" r="9" fill="#E87461"/>
+      <circle cx="-4" cy="-9" r="5" fill="#fdf0ee"/>
+      <line x1="-12" y1="2" x2="12" y2="2" stroke="#fff" stroke-width="2.5"/>
+    </g>
+    <!-- Embutido/salsicha -->
+    <g transform="translate(320,82)">
+      <rect x="-13" y="-5" width="26" height="10" rx="5" fill="#E87461"/>
+      <rect x="-11" y="-3" width="22" height="3" rx="1" fill="#fdf0ee" opacity="0.3"/>
+      <line x1="-15" y1="0" x2="15" y2="0" stroke="#fff" stroke-width="2.5"/>
+    </g>
+    <!-- Bala/doce -->
+    <g transform="translate(365,82)">
+      <circle cx="0" cy="0" r="9" fill="#E87461"/>
+      <path d="M-12 -2 L -8 0 L -12 2 Z" fill="#E87461"/>
+      <path d="M12 -2 L 8 0 L 12 2 Z" fill="#E87461"/>
+      <line x1="-14" y1="0" x2="14" y2="0" stroke="#fff" stroke-width="2.5"/>
+    </g>
+    <!-- Pizza industrial -->
+    <g transform="translate(410,82)">
+      <path d="M0 -10 L 11 8 L -11 8 Z" fill="#D4A54A"/>
+      <path d="M0 -10 L 11 8 L -11 8 Z" fill="#E8C94A" opacity="0.6"/>
+      <circle cx="-3" cy="2" r="2" fill="#E87461"/>
+      <circle cx="3" cy="-1" r="2" fill="#E87461"/>
+      <circle cx="0" cy="5" r="1.5" fill="#4A7C59"/>
+      <line x1="-13" y1="0" x2="13" y2="0" stroke="#fff" stroke-width="2.5"/>
+    </g>
+    <!-- Macarrão instantâneo (pacote) -->
+    <g transform="translate(455,82)">
+      <rect x="-11" y="-10" width="22" height="20" rx="2" fill="#E87461"/>
+      <text x="0" y="0" text-anchor="middle" font-family="Inter,sans-serif" font-size="5" font-weight="700" fill="#fff">INSTANT</text>
+      <line x1="-13" y1="0" x2="13" y2="0" stroke="#fff" stroke-width="2.5"/>
+    </g>
   </g>
 
-  <!-- ============ FRUTAS AO REDOR ============ -->
-
-  <!-- Laranja (canto sup. esquerdo) -->
-  <g transform="translate(135 195)">
-    <circle cx="0" cy="0" r="32" fill="#f57c00"/>
-    <circle cx="-6" cy="-6" r="14" fill="#FFA040" opacity="0.45"/>
-    <circle cx="-10" cy="-5" r="0.8" fill="#c25a00" opacity="0.6"/>
-    <circle cx="5" cy="-10" r="0.8" fill="#c25a00" opacity="0.6"/>
-    <circle cx="8" cy="3" r="0.8" fill="#c25a00" opacity="0.6"/>
-    <circle cx="-4" cy="12" r="0.8" fill="#c25a00" opacity="0.6"/>
-    <circle cx="12" cy="-2" r="0.8" fill="#c25a00" opacity="0.6"/>
-    <circle cx="-12" cy="8" r="0.8" fill="#c25a00" opacity="0.6"/>
-    <!-- Folha -->
-    <ellipse cx="-3" cy="-32" rx="4" ry="9" fill="#4A7C59" transform="rotate(-20 -3 -32)"/>
-  </g>
-
-  <!-- Maçã (canto sup. direito) -->
-  <g transform="translate(665 195)">
-    <circle cx="0" cy="0" r="34" fill="#c83232"/>
-    <circle cx="-10" cy="-10" r="14" fill="#e87461" opacity="0.5"/>
-    <path d="M-2 -32 Q 0 -42 6 -42" stroke="#6e4828" stroke-width="2.5" fill="none"/>
-    <ellipse cx="10" cy="-38" rx="9" ry="3.5" fill="#4A7C59" transform="rotate(30 10 -38)"/>
-  </g>
-
-  <!-- Banana (canto inf. esquerdo) -->
-  <g transform="translate(140 390) rotate(15)">
-    <path d="M0 0 Q -8 -22 -3 -48 Q 5 -54 14 -50 Q 25 -28 28 -8 Q 22 4 8 4 Z" fill="#D4A54A"/>
-    <path d="M0 0 Q -6 -20 -1 -44 Q 4 -47 11 -45 Q 21 -26 23 -10 Q 19 1 7 0 Z" fill="#E8C94A"/>
-    <ellipse cx="-3" cy="-48" rx="2.5" ry="3.5" fill="#5a3a23"/>
-    <ellipse cx="14" cy="4" rx="2" ry="2" fill="#5a3a23"/>
-  </g>
-
-  <!-- Cacho de uvas (canto inf. direito) -->
-  <g transform="translate(660 380)">
-    <circle cx="-12" cy="-2" r="9" fill="#5e3060"/>
-    <circle cx="6" cy="-6" r="9" fill="#6e4070"/>
-    <circle cx="-4" cy="-14" r="9" fill="#5e3060"/>
-    <circle cx="12" cy="-16" r="9" fill="#6e4070"/>
-    <circle cx="-16" cy="-12" r="9" fill="#5e3060"/>
-    <circle cx="-2" cy="-22" r="9" fill="#6e4070"/>
-    <circle cx="-12" cy="10" r="8" fill="#5e3060"/>
-    <circle cx="5" cy="9" r="8" fill="#6e4070"/>
-    <circle cx="-3" cy="-2" r="8" fill="#7a4a7a"/>
-    <ellipse cx="-14" cy="-6" rx="2.5" ry="2" fill="#fff" opacity="0.35"/>
-    <ellipse cx="4" cy="-10" rx="2.5" ry="2" fill="#fff" opacity="0.35"/>
-    <ellipse cx="-3" cy="-6" rx="2" ry="1.5" fill="#fff" opacity="0.35"/>
-    <!-- Cabo + folha -->
-    <path d="M-2 -28 Q 0 -36 7 -36" stroke="#4A7C59" stroke-width="2" fill="none"/>
-    <ellipse cx="12" cy="-32" rx="8" ry="3" fill="#4A7C59" transform="rotate(20 12 -32)"/>
-  </g>
-
-  <!-- ============ COPO DE ÁGUA (direita) ============ -->
-  <g transform="translate(720 295)">
-    <path d="M-16 -32 L 16 -32 L 12 28 L -12 28 Z" fill="#cce8f2" opacity="0.65"/>
-    <path d="M-15 -28 L 15 -28 L 12 26 L -12 26 Z" fill="#aaddee" opacity="0.5"/>
-    <ellipse cx="0" cy="-32" rx="16" ry="4" fill="#7ccae0" opacity="0.5"/>
-    <ellipse cx="0" cy="-28" rx="13" ry="3" fill="#5b9bd5" opacity="0.4"/>
-    <ellipse cx="-6" cy="-8" rx="2" ry="14" fill="#fff" opacity="0.5"/>
-  </g>
-
-  <!-- ============ RODAPÉ — 10 Passos ============ -->
-  <text x="400" y="478" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" font-weight="600" letter-spacing="2.5" fill="#7a6a4a">10 PASSOS · ALIMENTAÇÃO ADEQUADA E SAUDÁVEL</text>
-  <g transform="translate(400 498)">
-    <circle cx="-90" cy="0" r="3.5" fill="#4A7C59"/>
-    <circle cx="-70" cy="0" r="3.5" fill="#4A7C59"/>
-    <circle cx="-50" cy="0" r="3.5" fill="#4A7C59"/>
-    <circle cx="-30" cy="0" r="3.5" fill="#4A7C59"/>
-    <circle cx="-10" cy="0" r="3.5" fill="#4A7C59"/>
-    <circle cx="10" cy="0" r="3.5" fill="#D4A54A"/>
-    <circle cx="30" cy="0" r="3.5" fill="#D4A54A"/>
-    <circle cx="50" cy="0" r="3.5" fill="#D4A54A"/>
-    <circle cx="70" cy="0" r="3.5" fill="#E87461"/>
-    <circle cx="90" cy="0" r="3.5" fill="#E87461"/>
-  </g>
+  <!-- Rodapé -->
+  <text x="400" y="500" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" font-weight="600" letter-spacing="2" fill="#7a6a4a">Classificação NOVA · Guia Alimentar para a População Brasileira</text>
 </svg>
