@@ -124,52 +124,66 @@
     <text x="0" y="55" text-anchor="middle" font-family="Inter,sans-serif" font-size="11" font-weight="700" fill="#fff" letter-spacing="1">TERRITÓRIO</text>
   </g>
 
-  <!-- ============ ESTUDANTE NO CENTRO ============ -->
+  <!-- ============ CRIANÇA ESTUDANTE NO CENTRO ============ -->
   <g transform="translate(300,360)">
-    <!-- Corpo (uniforme escolar com gola branca) -->
-    <path d="M-22 8 L 22 8 L 28 38 L -28 38 Z" fill="#5b9bd5"/>
-    <!-- Gola/colarinho -->
-    <path d="M-10 8 L 0 18 L 10 8 L 6 6 L 0 12 L -6 6 Z" fill="#fff"/>
-    <!-- Gravata vermelha -->
-    <path d="M-2 14 L 2 14 L 4 28 L 0 32 L -4 28 Z" fill="#E87461"/>
+    <!-- Pernas -->
+    <rect x="-10" y="32" width="7" height="14" rx="2" fill="#5a3a23"/>
+    <rect x="3" y="32" width="7" height="14" rx="2" fill="#5a3a23"/>
+    <!-- Sapatinhos -->
+    <ellipse cx="-7" cy="48" rx="6" ry="3" fill="#3a1f10"/>
+    <ellipse cx="7" cy="48" rx="6" ry="3" fill="#3a1f10"/>
+    <!-- Corpo (camiseta) -->
+    <path d="M-18 6 L 18 6 L 22 34 L -22 34 Z" fill="#5b9bd5"/>
+    <!-- Estampa de estrelinha na camiseta -->
+    <path d="M0 18 L 2 22 L 6 22 L 3 25 L 4 29 L 0 27 L -4 29 L -3 25 L -6 22 L -2 22 Z" fill="#E8C94A"/>
     <!-- Mochila atrás -->
-    <path d="M-26 16 Q -32 18 -32 28 L -32 36 Q -28 38 -22 36 L -22 18 Z" fill="#D4A54A"/>
-    <rect x="-30" y="22" width="6" height="3" rx="1" fill="#a87545"/>
-    <!-- Braço direito com livro -->
-    <path d="M22 14 Q 30 18 32 28" stroke="#5b9bd5" stroke-width="6" fill="none" stroke-linecap="round"/>
-    <!-- Mão -->
-    <circle cx="32" cy="28" r="4" fill="#fdc998"/>
-    <!-- Livro -->
-    <rect x="28" y="28" width="18" height="13" rx="1" fill="#4A7C59"/>
-    <rect x="30" y="30" width="14" height="2" fill="#7CB98A"/>
-    <rect x="30" y="34" width="14" height="2" fill="#fff" opacity="0.7"/>
-    <rect x="30" y="37" width="14" height="2" fill="#fff" opacity="0.7"/>
-    <!-- Pescoço -->
-    <path d="M-5 4 L 5 4 L 6 10 L -6 10 Z" fill="#d8a878"/>
-    <!-- Cabeça oval -->
-    <ellipse cx="0" cy="-10" rx="14" ry="16" fill="#fdc998"/>
+    <path d="M-22 12 Q -28 14 -28 24 L -28 32 Q -24 34 -19 32 L -19 14 Z" fill="#D4A54A"/>
+    <rect x="-26" y="18" width="5" height="3" rx="1" fill="#a87545"/>
+    <!-- Bracinho esquerdo (colado ao corpo) -->
+    <path d="M-18 12 Q -22 22 -20 30" stroke="#5b9bd5" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <circle cx="-20" cy="30" r="3.5" fill="#fdc998"/>
+    <!-- Bracinho direito segurando livro -->
+    <path d="M18 12 Q 24 18 26 26" stroke="#5b9bd5" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <circle cx="26" cy="26" r="3.5" fill="#fdc998"/>
+    <!-- Livro pequeno colorido -->
+    <rect x="22" y="22" width="14" height="11" rx="1" fill="#4A7C59"/>
+    <rect x="24" y="24" width="10" height="1.5" fill="#7CB98A"/>
+    <rect x="24" y="27" width="10" height="1.5" fill="#fff" opacity="0.7"/>
+    <rect x="24" y="30" width="10" height="1.5" fill="#fff" opacity="0.7"/>
+    <!-- Pescocinho curto -->
+    <path d="M-4 2 L 4 2 L 5 7 L -5 7 Z" fill="#d8a878"/>
+    <!-- Cabeça grande proporcional (criança) -->
+    <ellipse cx="0" cy="-12" rx="17" ry="18" fill="#fdc998"/>
     <!-- Orelhas -->
-    <ellipse cx="-14" cy="-10" rx="2.5" ry="3.5" fill="#d8a878"/>
-    <ellipse cx="14" cy="-10" rx="2.5" ry="3.5" fill="#d8a878"/>
-    <!-- Cabelo curto -->
-    <path d="M-14 -18 Q -16 -28 0 -28 Q 16 -28 14 -18 L 13 -10 Q 8 -16 0 -16 Q -8 -16 -13 -10 Z" fill="#5a3a23"/>
-    <path d="M-13 -16 Q -8 -10 -2 -14 L 0 -18 Q -8 -20 -13 -16 Z" fill="#3a1f10"/>
+    <ellipse cx="-17" cy="-12" rx="3" ry="4" fill="#d8a878"/>
+    <ellipse cx="17" cy="-12" rx="3" ry="4" fill="#d8a878"/>
+    <!-- Cabelo cacheado/bagunçado (estilo infantil) -->
+    <ellipse cx="0" cy="-22" rx="19" ry="10" fill="#6e4828"/>
+    <circle cx="-13" cy="-25" r="6" fill="#6e4828"/>
+    <circle cx="13" cy="-25" r="6" fill="#6e4828"/>
+    <circle cx="-7" cy="-30" r="5" fill="#6e4828"/>
+    <circle cx="7" cy="-30" r="5" fill="#6e4828"/>
+    <circle cx="0" cy="-32" r="5" fill="#6e4828"/>
     <!-- Sobrancelhas -->
-    <path d="M-7 -14 Q -5 -16 -2 -14" stroke="#3a1f10" stroke-width="1.3" fill="none" stroke-linecap="round"/>
-    <path d="M2 -14 Q 5 -16 7 -14" stroke="#3a1f10" stroke-width="1.3" fill="none" stroke-linecap="round"/>
-    <!-- Olhos simples (sem íris exagerada) -->
-    <ellipse cx="-4" cy="-10" rx="1.6" ry="2" fill="#3a1f10"/>
-    <ellipse cx="4" cy="-10" rx="1.6" ry="2" fill="#3a1f10"/>
-    <!-- Nariz sutil -->
-    <path d="M-1 -7 Q 0 -5 1 -7" stroke="#c89875" stroke-width="0.8" fill="none"/>
-    <!-- Bochechas -->
-    <circle cx="-9" cy="-5" r="2" fill="#E87461" opacity="0.32"/>
-    <circle cx="9" cy="-5" r="2" fill="#E87461" opacity="0.32"/>
-    <!-- Sorriso -->
-    <path d="M-4 -3 Q 0 1 4 -3" stroke="#7a2a20" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+    <path d="M-8 -16 Q -6 -18 -3 -16" stroke="#5a3a23" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+    <path d="M3 -16 Q 6 -18 8 -16" stroke="#5a3a23" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+    <!-- Olhos grandes (proporção infantil) -->
+    <ellipse cx="-5" cy="-12" rx="2.5" ry="3" fill="#fff"/>
+    <ellipse cx="5" cy="-12" rx="2.5" ry="3" fill="#fff"/>
+    <circle cx="-5" cy="-11" r="1.8" fill="#3a1f10"/>
+    <circle cx="5" cy="-11" r="1.8" fill="#3a1f10"/>
+    <circle cx="-4.5" cy="-11.5" r="0.7" fill="#fff"/>
+    <circle cx="5.5" cy="-11.5" r="0.7" fill="#fff"/>
+    <!-- Bochechas rosadas grandes (típico de criança) -->
+    <circle cx="-11" cy="-6" r="3.5" fill="#E87461" opacity="0.4"/>
+    <circle cx="11" cy="-6" r="3.5" fill="#E87461" opacity="0.4"/>
+    <!-- Nariz arrebitado -->
+    <path d="M-1 -6 Q 0 -3 1 -6" stroke="#c89875" stroke-width="1" fill="none"/>
+    <!-- Sorriso aberto/feliz -->
+    <path d="M-5 -2 Q 0 4 5 -2" stroke="#7a2a20" stroke-width="1.6" fill="none" stroke-linecap="round"/>
     <!-- Tag "ESTUDANTE" abaixo -->
-    <rect x="-44" y="44" width="88" height="18" rx="9" fill="#3a3a3a"/>
-    <text x="0" y="56" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" font-weight="700" fill="#fff" letter-spacing="1.5">ESTUDANTE</text>
+    <rect x="-44" y="55" width="88" height="18" rx="9" fill="#3a3a3a"/>
+    <text x="0" y="67" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" font-weight="700" fill="#fff" letter-spacing="1.5">ESTUDANTE</text>
   </g>
 
   <!-- Setas indicando "fluxo" para a criança no centro -->
