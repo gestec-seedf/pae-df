@@ -27,8 +27,7 @@
   <!-- ============ BLOCO 1 — DASHBOARD DE INDICADORES ============ -->
   <g transform="translate(40,130)">
     <rect width="520" height="200" rx="18" fill="#fefdf6" stroke="#d4c8a8" stroke-width="2"/>
-    <rect width="520" height="40" rx="18" fill="#5b9bd5"/>
-    <rect y="22" width="520" height="18" fill="#5b9bd5"/>
+    <path d="M 0 18 Q 0 0 18 0 L 502 0 Q 520 0 520 18 L 520 40 L 0 40 Z" fill="#5b9bd5"/>
     <text x="20" y="27" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#fff" letter-spacing="1.5">PAINEL DE INDICADORES</text>
     <text x="500" y="27" text-anchor="end" font-family="Inter,sans-serif" font-size="10" fill="#cce8f2" letter-spacing="1">2026 · 1º SEMESTRE</text>
 
@@ -85,8 +84,7 @@
   <!-- ============ BLOCO 2 — CHECKLIST ============ -->
   <g transform="translate(40,355)">
     <rect width="520" height="180" rx="18" fill="#fefdf6" stroke="#d4c8a8" stroke-width="2"/>
-    <rect width="520" height="40" rx="18" fill="#4A7C59"/>
-    <rect y="22" width="520" height="18" fill="#4A7C59"/>
+    <path d="M 0 18 Q 0 0 18 0 L 502 0 Q 520 0 520 18 L 520 40 L 0 40 Z" fill="#4A7C59"/>
     <text x="20" y="27" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#fff" letter-spacing="1.5">RELATÓRIO DE ACOMPANHAMENTO</text>
     <text x="500" y="27" text-anchor="end" font-family="Inter,sans-serif" font-size="10" fill="#a8e6b8" letter-spacing="1">CONSELHO CAE/PNAE</text>
 
@@ -125,8 +123,7 @@
   <!-- ============ BLOCO 3 — CALENDÁRIO SEMESTRAL ============ -->
   <g transform="translate(40,560)">
     <rect width="520" height="160" rx="18" fill="#fefdf6" stroke="#d4c8a8" stroke-width="2"/>
-    <rect width="520" height="40" rx="18" fill="#E87461"/>
-    <rect y="22" width="520" height="18" fill="#E87461"/>
+    <path d="M 0 18 Q 0 0 18 0 L 502 0 Q 520 0 520 18 L 520 40 L 0 40 Z" fill="#E87461"/>
     <text x="20" y="27" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#fff" letter-spacing="1.5">MARCOS DOS RELATÓRIOS SEMESTRAIS</text>
     <text x="500" y="27" text-anchor="end" font-family="Inter,sans-serif" font-size="10" fill="#fdebe7" letter-spacing="1">PNAE · ANO LETIVO</text>
 
