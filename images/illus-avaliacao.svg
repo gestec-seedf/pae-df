@@ -21,21 +21,21 @@
   <rect width="600" height="750" fill="url(#bg-aval)"/>
 
   <!-- HEADER -->
-  <text x="300" y="50" text-anchor="middle" font-family="Inter,sans-serif" font-size="16" font-weight="700" letter-spacing="3.5" fill="#7a6a4a">GESTÃO · MONITORAMENTO</text>
-  <text x="300" y="88" text-anchor="middle" font-family="Inter,sans-serif" font-size="36" font-weight="700" fill="#3a3a3a">Avaliação e <tspan font-style="italic" fill="#5b9bd5">relatórios</tspan></text>
+  <text x="300" y="50" text-anchor="middle" font-family="Inter,sans-serif" font-size="12" font-weight="700" letter-spacing="3.5" fill="#7a6a4a">GESTÃO · MONITORAMENTO</text>
+  <text x="300" y="88" text-anchor="middle" font-family="Inter,sans-serif" font-size="28" font-weight="700" fill="#3a3a3a">Avaliação e <tspan font-style="italic" fill="#5b9bd5">relatórios</tspan></text>
 
   <!-- ============ BLOCO 1 — DASHBOARD DE INDICADORES ============ -->
   <g transform="translate(40,130)">
     <rect width="520" height="200" rx="18" fill="#fefdf6" stroke="#d4c8a8" stroke-width="2"/>
     <path d="M 0 18 Q 0 0 18 0 L 502 0 Q 520 0 520 18 L 520 40 L 0 40 Z" fill="#5b9bd5"/>
-    <text x="20" y="27" font-family="Inter,sans-serif" font-size="19" font-weight="700" fill="#fff" letter-spacing="1.5">PAINEL DE INDICADORES</text>
-    <text x="500" y="27" text-anchor="end" font-family="Inter,sans-serif" font-size="15" fill="#cce8f2" letter-spacing="1">2026 · 1º SEMESTRE</text>
+    <text x="20" y="27" font-family="Inter,sans-serif" font-size="15" font-weight="700" fill="#fff" letter-spacing="1.5">PAINEL DE INDICADORES</text>
+    <text x="500" y="27" text-anchor="end" font-family="Inter,sans-serif" font-size="11" fill="#cce8f2" letter-spacing="1">2026 · 1º SEMESTRE</text>
 
     <!-- Indicador 1: Agricultura familiar (45%) -->
     <g transform="translate(40,75)">
-      <text x="0" y="0" font-family="Inter,sans-serif" font-size="14" font-weight="700" fill="#4A7C59" letter-spacing="1">AGRICULTURA FAMILIAR</text>
-      <text x="0" y="34" font-family="Inter,sans-serif" font-size="42" font-weight="700" fill="#2d5a3a">52<tspan font-size="24" fill="#7CB98A">%</tspan></text>
-      <text x="0" y="50" font-family="Inter,sans-serif" font-size="14" fill="#7a6a4a">meta: 45%</text>
+      <text x="0" y="0" font-family="Inter,sans-serif" font-size="10" font-weight="700" fill="#4A7C59" letter-spacing="1">AGRICULTURA FAMILIAR</text>
+      <text x="0" y="34" font-family="Inter,sans-serif" font-size="34" font-weight="700" fill="#2d5a3a">52<tspan font-size="18" fill="#7CB98A">%</tspan></text>
+      <text x="0" y="50" font-family="Inter,sans-serif" font-size="10" fill="#7a6a4a">meta: 45%</text>
       <!-- Barra de progresso -->
       <rect x="0" y="62" width="120" height="6" rx="3" fill="#e8f5ed"/>
       <rect x="0" y="62" width="80" height="6" rx="3" fill="url(#grad-verde)"/>
@@ -46,9 +46,9 @@
 
     <!-- Indicador 2: In natura (85%) -->
     <g transform="translate(220,75)">
-      <text x="0" y="0" font-family="Inter,sans-serif" font-size="14" font-weight="700" fill="#D4A54A" letter-spacing="1">IN NATURA NO CARDÁPIO</text>
-      <text x="0" y="34" font-family="Inter,sans-serif" font-size="42" font-weight="700" fill="#8a6a20">87<tspan font-size="24" fill="#E8C94A">%</tspan></text>
-      <text x="0" y="50" font-family="Inter,sans-serif" font-size="14" fill="#7a6a4a">meta: 85%</text>
+      <text x="0" y="0" font-family="Inter,sans-serif" font-size="10" font-weight="700" fill="#D4A54A" letter-spacing="1">IN NATURA NO CARDÁPIO</text>
+      <text x="0" y="34" font-family="Inter,sans-serif" font-size="34" font-weight="700" fill="#8a6a20">87<tspan font-size="18" fill="#E8C94A">%</tspan></text>
+      <text x="0" y="50" font-family="Inter,sans-serif" font-size="10" fill="#7a6a4a">meta: 85%</text>
       <rect x="0" y="62" width="120" height="6" rx="3" fill="#fdf6e0"/>
       <rect x="0" y="62" width="105" height="6" rx="3" fill="url(#grad-amarelo)"/>
       <circle cx="115" cy="42" r="12" fill="#D4A54A"/>
@@ -57,9 +57,9 @@
 
     <!-- Indicador 3: Ultraprocessados (≤10%) -->
     <g transform="translate(400,75)">
-      <text x="0" y="0" font-family="Inter,sans-serif" font-size="14" font-weight="700" fill="#E87461" letter-spacing="1">ULTRAPROCESSADOS</text>
-      <text x="0" y="34" font-family="Inter,sans-serif" font-size="42" font-weight="700" fill="#7a2a20">7<tspan font-size="24" fill="#F5A08F">%</tspan></text>
-      <text x="0" y="50" font-family="Inter,sans-serif" font-size="14" fill="#7a6a4a">limite: 10%</text>
+      <text x="0" y="0" font-family="Inter,sans-serif" font-size="10" font-weight="700" fill="#E87461" letter-spacing="1">ULTRAPROCESSADOS</text>
+      <text x="0" y="34" font-family="Inter,sans-serif" font-size="34" font-weight="700" fill="#7a2a20">7<tspan font-size="18" fill="#F5A08F">%</tspan></text>
+      <text x="0" y="50" font-family="Inter,sans-serif" font-size="10" fill="#7a6a4a">limite: 10%</text>
       <rect x="0" y="62" width="100" height="6" rx="3" fill="#fdebe7"/>
       <rect x="0" y="62" width="70" height="6" rx="3" fill="url(#grad-coral)"/>
       <circle cx="95" cy="42" r="12" fill="#E87461"/>
@@ -68,7 +68,7 @@
 
     <!-- Gráfico de barras embaixo -->
     <g transform="translate(40,170)">
-      <text x="0" y="0" font-family="Inter,sans-serif" font-size="13" font-weight="600" fill="#7a6a4a" letter-spacing="1">EVOLUÇÃO TRIMESTRAL · ADESÃO ÀS REFEIÇÕES</text>
+      <text x="0" y="0" font-family="Inter,sans-serif" font-size="10" font-weight="600" fill="#7a6a4a" letter-spacing="1">EVOLUÇÃO TRIMESTRAL · ADESÃO ÀS REFEIÇÕES</text>
       <!-- Barras -->
       <rect x="0" y="10" width="40" height="14" rx="2" fill="#7CB98A"/>
       <rect x="50" y="6" width="50" height="18" rx="2" fill="#4A7C59"/>
@@ -85,37 +85,37 @@
   <g transform="translate(40,355)">
     <rect width="520" height="180" rx="18" fill="#fefdf6" stroke="#d4c8a8" stroke-width="2"/>
     <path d="M 0 18 Q 0 0 18 0 L 502 0 Q 520 0 520 18 L 520 40 L 0 40 Z" fill="#4A7C59"/>
-    <text x="20" y="27" font-family="Inter,sans-serif" font-size="19" font-weight="700" fill="#fff" letter-spacing="1.5">RELATÓRIO DE ACOMPANHAMENTO</text>
-    <text x="500" y="27" text-anchor="end" font-family="Inter,sans-serif" font-size="15" fill="#a8e6b8" letter-spacing="1">CONSELHO CAE/PNAE</text>
+    <text x="20" y="27" font-family="Inter,sans-serif" font-size="15" font-weight="700" fill="#fff" letter-spacing="1.5">RELATÓRIO DE ACOMPANHAMENTO</text>
+    <text x="500" y="27" text-anchor="end" font-family="Inter,sans-serif" font-size="11" fill="#a8e6b8" letter-spacing="1">CONSELHO CAE/PNAE</text>
 
     <!-- Itens do checklist -->
-    <g transform="translate(40,70)" font-family="Inter,sans-serif" font-size="16" fill="#3a3a3a">
+    <g transform="translate(40,70)" font-family="Inter,sans-serif" font-size="12" fill="#3a3a3a">
       <!-- Item 1 -->
       <g transform="translate(0,0)">
         <rect x="0" y="-8" width="14" height="14" rx="3" fill="#4A7C59"/>
         <path d="M3 -1 L 6 2 L 11 -4" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
         <text x="22" y="2">Adesão semanal por turma</text>
-        <text x="455" y="2" text-anchor="end" font-size="14" fill="#4A7C59" font-weight="700">CONCLUÍDO</text>
+        <text x="455" y="2" text-anchor="end" font-size="10" fill="#4A7C59" font-weight="700">CONCLUÍDO</text>
       </g>
       <!-- Item 2 -->
       <g transform="translate(0,28)">
         <rect x="0" y="-8" width="14" height="14" rx="3" fill="#4A7C59"/>
         <path d="M3 -1 L 6 2 L 11 -4" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
         <text x="22" y="2">Análise qualitativa dos cardápios</text>
-        <text x="455" y="2" text-anchor="end" font-size="14" fill="#4A7C59" font-weight="700">CONCLUÍDO</text>
+        <text x="455" y="2" text-anchor="end" font-size="10" fill="#4A7C59" font-weight="700">CONCLUÍDO</text>
       </g>
       <!-- Item 3 -->
       <g transform="translate(0,56)">
         <rect x="0" y="-8" width="14" height="14" rx="3" fill="#D4A54A"/>
-        <text x="7" y="3" text-anchor="middle" font-size="15" font-weight="700" fill="white">!</text>
+        <text x="7" y="3" text-anchor="middle" font-size="11" font-weight="700" fill="white">!</text>
         <text x="22" y="2">Registro fotográfico das refeições</text>
-        <text x="455" y="2" text-anchor="end" font-size="14" fill="#D4A54A" font-weight="700">EM ANDAMENTO</text>
+        <text x="455" y="2" text-anchor="end" font-size="10" fill="#D4A54A" font-weight="700">EM ANDAMENTO</text>
       </g>
       <!-- Item 4 -->
       <g transform="translate(0,84)">
         <rect x="0" y="-8" width="14" height="14" rx="3" fill="#fff" stroke="#aaa" stroke-width="1.5"/>
         <text x="22" y="2">Avaliação familiar — questionário</text>
-        <text x="455" y="2" text-anchor="end" font-size="14" fill="#aaa" font-weight="700">PENDENTE</text>
+        <text x="455" y="2" text-anchor="end" font-size="10" fill="#aaa" font-weight="700">PENDENTE</text>
       </g>
     </g>
   </g>
@@ -124,8 +124,8 @@
   <g transform="translate(40,560)">
     <rect width="520" height="160" rx="18" fill="#fefdf6" stroke="#d4c8a8" stroke-width="2"/>
     <path d="M 0 18 Q 0 0 18 0 L 502 0 Q 520 0 520 18 L 520 40 L 0 40 Z" fill="#E87461"/>
-    <text x="20" y="27" font-family="Inter,sans-serif" font-size="19" font-weight="700" fill="#fff" letter-spacing="1.5">MARCOS DOS RELATÓRIOS SEMESTRAIS</text>
-    <text x="500" y="27" text-anchor="end" font-family="Inter,sans-serif" font-size="15" fill="#fdebe7" letter-spacing="1">PNAE · ANO LETIVO</text>
+    <text x="20" y="27" font-family="Inter,sans-serif" font-size="15" font-weight="700" fill="#fff" letter-spacing="1.5">MARCOS DOS RELATÓRIOS SEMESTRAIS</text>
+    <text x="500" y="27" text-anchor="end" font-family="Inter,sans-serif" font-size="11" fill="#fdebe7" letter-spacing="1">PNAE · ANO LETIVO</text>
 
     <!-- Timeline horizontal com marcos -->
     <g transform="translate(40,90)">
@@ -135,46 +135,46 @@
       <!-- JAN -->
       <g transform="translate(0,0)">
         <circle cx="0" cy="20" r="6" fill="#fefdf6" stroke="#aaa" stroke-width="2"/>
-        <text x="0" y="42" text-anchor="middle" font-family="Inter,sans-serif" font-size="14" font-weight="700" fill="#7a6a4a">JAN</text>
-        <text x="0" y="54" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" fill="#aaa">início</text>
+        <text x="0" y="42" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" font-weight="700" fill="#7a6a4a">JAN</text>
+        <text x="0" y="54" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" fill="#aaa">início</text>
       </g>
       <!-- MAR -->
       <g transform="translate(88,0)">
         <circle cx="0" cy="20" r="6" fill="#fefdf6" stroke="#aaa" stroke-width="2"/>
-        <text x="0" y="42" text-anchor="middle" font-family="Inter,sans-serif" font-size="14" font-weight="700" fill="#7a6a4a">MAR</text>
-        <text x="0" y="54" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" fill="#aaa">coleta</text>
+        <text x="0" y="42" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" font-weight="700" fill="#7a6a4a">MAR</text>
+        <text x="0" y="54" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" fill="#aaa">coleta</text>
       </g>
       <!-- JUL — RELATÓRIO 1 -->
       <g transform="translate(176,0)">
         <circle cx="0" cy="20" r="13" fill="#E87461"/>
         <path d="M-5 17 L -1 22 L 7 13" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-        <text x="0" y="0" text-anchor="middle" font-family="Inter,sans-serif" font-size="14" font-weight="700" fill="#7a2a20">RELATÓRIO 1</text>
-        <text x="0" y="44" text-anchor="middle" font-family="Inter,sans-serif" font-size="15" font-weight="700" fill="#E87461">JUL</text>
-        <text x="0" y="56" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" fill="#7a2a20">1º semestre</text>
+        <text x="0" y="0" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" font-weight="700" fill="#7a2a20">RELATÓRIO 1</text>
+        <text x="0" y="44" text-anchor="middle" font-family="Inter,sans-serif" font-size="11" font-weight="700" fill="#E87461">JUL</text>
+        <text x="0" y="56" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" fill="#7a2a20">1º semestre</text>
       </g>
       <!-- SET -->
       <g transform="translate(264,0)">
         <circle cx="0" cy="20" r="6" fill="#fefdf6" stroke="#aaa" stroke-width="2"/>
-        <text x="0" y="42" text-anchor="middle" font-family="Inter,sans-serif" font-size="14" font-weight="700" fill="#7a6a4a">SET</text>
-        <text x="0" y="54" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" fill="#aaa">coleta</text>
+        <text x="0" y="42" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" font-weight="700" fill="#7a6a4a">SET</text>
+        <text x="0" y="54" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" fill="#aaa">coleta</text>
       </g>
       <!-- NOV -->
       <g transform="translate(352,0)">
         <circle cx="0" cy="20" r="6" fill="#fefdf6" stroke="#aaa" stroke-width="2"/>
-        <text x="0" y="42" text-anchor="middle" font-family="Inter,sans-serif" font-size="14" font-weight="700" fill="#7a6a4a">NOV</text>
-        <text x="0" y="54" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" fill="#aaa">análise</text>
+        <text x="0" y="42" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" font-weight="700" fill="#7a6a4a">NOV</text>
+        <text x="0" y="54" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" fill="#aaa">análise</text>
       </g>
       <!-- DEZ — RELATÓRIO 2 -->
       <g transform="translate(440,0)">
         <circle cx="0" cy="20" r="13" fill="#E87461"/>
         <path d="M-5 17 L -1 22 L 7 13" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-        <text x="0" y="0" text-anchor="middle" font-family="Inter,sans-serif" font-size="14" font-weight="700" fill="#7a2a20">RELATÓRIO 2</text>
-        <text x="0" y="44" text-anchor="middle" font-family="Inter,sans-serif" font-size="15" font-weight="700" fill="#E87461">DEZ</text>
-        <text x="0" y="56" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" fill="#7a2a20">2º semestre</text>
+        <text x="0" y="0" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" font-weight="700" fill="#7a2a20">RELATÓRIO 2</text>
+        <text x="0" y="44" text-anchor="middle" font-family="Inter,sans-serif" font-size="11" font-weight="700" fill="#E87461">DEZ</text>
+        <text x="0" y="56" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" fill="#7a2a20">2º semestre</text>
       </g>
     </g>
   </g>
 
   <!-- RODAPÉ -->
-  <text x="300" y="740" text-anchor="middle" font-family="Inter,sans-serif" font-size="15" font-weight="600" letter-spacing="2.5" fill="#7a6a4a">EVIDENCIAR PARA MELHORAR · CICLO CONTÍNUO</text>
+  <text x="300" y="740" text-anchor="middle" font-family="Inter,sans-serif" font-size="11" font-weight="600" letter-spacing="2.5" fill="#7a6a4a">EVIDENCIAR PARA MELHORAR · CICLO CONTÍNUO</text>
 </svg>

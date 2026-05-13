@@ -9,8 +9,8 @@
   <rect width="600" height="750" fill="url(#bg-ativ)"/>
 
   <!-- HEADER -->
-  <text x="300" y="50" text-anchor="middle" font-family="Inter,sans-serif" font-size="16" font-weight="700" letter-spacing="3.5" fill="#7a6a4a">PRÁTICAS PEDAGÓGICAS · EDUCAÇÃO INFANTIL</text>
-  <text x="300" y="88" text-anchor="middle" font-family="Inter,sans-serif" font-size="36" font-weight="700" fill="#3a3a3a">Atividades por <tspan font-style="italic" fill="#E87461">faixa etária</tspan></text>
+  <text x="300" y="50" text-anchor="middle" font-family="Inter,sans-serif" font-size="12" font-weight="700" letter-spacing="3.5" fill="#7a6a4a">PRÁTICAS PEDAGÓGICAS · EDUCAÇÃO INFANTIL</text>
+  <text x="300" y="88" text-anchor="middle" font-family="Inter,sans-serif" font-size="28" font-weight="700" fill="#3a3a3a">Atividades por <tspan font-style="italic" fill="#E87461">faixa etária</tspan></text>
 
   <!-- Timeline vertical (linha conectora) -->
   <line x1="100" y1="170" x2="100" y2="640" stroke="#d4c8a8" stroke-width="3" stroke-dasharray="5,5"/>
@@ -24,13 +24,13 @@
     <!-- Bolinha cronológica na timeline -->
     <circle cx="60" cy="40" r="28" fill="#E87461"/>
     <circle cx="60" cy="40" r="22" fill="#fdf0ee"/>
-    <text x="60" y="35" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#E87461" letter-spacing="0.5">FASE</text>
-    <text x="60" y="50" text-anchor="middle" font-family="Inter,sans-serif" font-size="24" font-weight="700" fill="#7a2a20">01</text>
+    <text x="60" y="35" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" font-weight="700" fill="#E87461" letter-spacing="0.5">FASE</text>
+    <text x="60" y="50" text-anchor="middle" font-family="Inter,sans-serif" font-size="18" font-weight="700" fill="#7a2a20">01</text>
 
     <!-- Texto -->
-    <text x="105" y="32" font-family="Inter,sans-serif" font-size="15" font-weight="700" letter-spacing="2" fill="#a04030">BEBÊS · 0 A 1A 6M</text>
-    <text x="105" y="58" font-family="Inter,sans-serif" font-size="28" font-weight="700" fill="#7a2a20">Sensorial e afetivo</text>
-    <text x="105" y="80" font-family="Inter,sans-serif" font-size="16" fill="#a04030">Bandeja sensorial · canção dos alimentos · fantoches</text>
+    <text x="105" y="32" font-family="Inter,sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#a04030">BEBÊS · 0 A 1A 6M</text>
+    <text x="105" y="58" font-family="Inter,sans-serif" font-size="22" font-weight="700" fill="#7a2a20">Sensorial e afetivo</text>
+    <text x="105" y="80" font-family="Inter,sans-serif" font-size="12" fill="#a04030">Bandeja sensorial · canção dos alimentos · fantoches</text>
 
     <!-- Cena: cadeirinha + bandeja com frutas -->
     <g transform="translate(280,130)">
@@ -80,9 +80,9 @@
 
     <!-- Notinhas musicais (canção dos alimentos) -->
     <g transform="translate(450,40)" fill="#E87461" opacity="0.7">
-      <text x="0" y="0" font-family="serif" font-size="30">♪</text>
-      <text x="15" y="-8" font-family="serif" font-size="24">♫</text>
-      <text x="-12" y="-5" font-family="serif" font-size="22">♪</text>
+      <text x="0" y="0" font-family="serif" font-size="24">♪</text>
+      <text x="15" y="-8" font-family="serif" font-size="18">♫</text>
+      <text x="-12" y="-5" font-family="serif" font-size="16">♪</text>
     </g>
   </g>
 
@@ -93,12 +93,12 @@
 
     <circle cx="60" cy="40" r="28" fill="#4A7C59"/>
     <circle cx="60" cy="40" r="22" fill="#e8f5ed"/>
-    <text x="60" y="35" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#4A7C59" letter-spacing="0.5">FASE</text>
-    <text x="60" y="50" text-anchor="middle" font-family="Inter,sans-serif" font-size="24" font-weight="700" fill="#2d5a3a">02</text>
+    <text x="60" y="35" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" font-weight="700" fill="#4A7C59" letter-spacing="0.5">FASE</text>
+    <text x="60" y="50" text-anchor="middle" font-family="Inter,sans-serif" font-size="18" font-weight="700" fill="#2d5a3a">02</text>
 
-    <text x="105" y="32" font-family="Inter,sans-serif" font-size="15" font-weight="700" letter-spacing="2" fill="#4A7C59">CRECHE · 1A 7M A 3A 11M</text>
-    <text x="105" y="58" font-family="Inter,sans-serif" font-size="28" font-weight="700" fill="#2d5a3a">Autonomia e brincar</text>
-    <text x="105" y="80" font-family="Inter,sans-serif" font-size="16" fill="#4A7C59">Mercadinho lúdico · feijão mágico · jogo da memória</text>
+    <text x="105" y="32" font-family="Inter,sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#4A7C59">CRECHE · 1A 7M A 3A 11M</text>
+    <text x="105" y="58" font-family="Inter,sans-serif" font-size="22" font-weight="700" fill="#2d5a3a">Autonomia e brincar</text>
+    <text x="105" y="80" font-family="Inter,sans-serif" font-size="12" fill="#4A7C59">Mercadinho lúdico · feijão mágico · jogo da memória</text>
 
     <!-- Cena: criança no mercadinho com cestinha -->
     <g transform="translate(170,135)">
@@ -164,12 +164,12 @@
 
     <circle cx="60" cy="40" r="28" fill="#D4A54A"/>
     <circle cx="60" cy="40" r="22" fill="#fdf6e0"/>
-    <text x="60" y="35" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#D4A54A" letter-spacing="0.5">FASE</text>
-    <text x="60" y="50" text-anchor="middle" font-family="Inter,sans-serif" font-size="24" font-weight="700" fill="#8a6a20">03</text>
+    <text x="60" y="35" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" font-weight="700" fill="#D4A54A" letter-spacing="0.5">FASE</text>
+    <text x="60" y="50" text-anchor="middle" font-family="Inter,sans-serif" font-size="18" font-weight="700" fill="#8a6a20">03</text>
 
-    <text x="105" y="32" font-family="Inter,sans-serif" font-size="15" font-weight="700" letter-spacing="2" fill="#a78930">PRÉ-ESCOLA · 4 A 5A 11M</text>
-    <text x="105" y="58" font-family="Inter,sans-serif" font-size="28" font-weight="700" fill="#8a6a20">Investigação e horta</text>
-    <text x="105" y="80" font-family="Inter,sans-serif" font-size="16" fill="#a78930">Horta escolar · investigação · cozinha experimental</text>
+    <text x="105" y="32" font-family="Inter,sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#a78930">PRÉ-ESCOLA · 4 A 5A 11M</text>
+    <text x="105" y="58" font-family="Inter,sans-serif" font-size="22" font-weight="700" fill="#8a6a20">Investigação e horta</text>
+    <text x="105" y="80" font-family="Inter,sans-serif" font-size="12" fill="#a78930">Horta escolar · investigação · cozinha experimental</text>
 
     <!-- Cena: criança com regador na horta -->
     <g transform="translate(180,135)">
@@ -245,5 +245,5 @@
   </g>
 
   <!-- RODAPÉ -->
-  <text x="300" y="725" text-anchor="middle" font-family="Inter,sans-serif" font-size="15" font-weight="600" letter-spacing="2.5" fill="#7a6a4a">DO BERÇO À PRÉ-ESCOLA · COM INTENCIONALIDADE</text>
+  <text x="300" y="725" text-anchor="middle" font-family="Inter,sans-serif" font-size="11" font-weight="600" letter-spacing="2.5" fill="#7a6a4a">DO BERÇO À PRÉ-ESCOLA · COM INTENCIONALIDADE</text>
 </svg>

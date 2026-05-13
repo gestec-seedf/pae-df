@@ -43,12 +43,12 @@
   <!-- LINHA 1: O eu, o outro e o nós -->
   <g transform="translate(40,140)">
     <rect x="0" y="0" width="520" height="68" rx="10" fill="url(#row-coral)"/>
-    <rect x="10" y="14" width="160" height="40" rx="20" fill="#fff" stroke="#E87461" stroke-width="2"/>
+    <rect x="10" y="14" width="195" height="40" rx="20" fill="#fff" stroke="#E87461" stroke-width="2"/>
     <circle cx="35" cy="34" r="11" fill="#E87461"/>
     <circle cx="50" cy="34" r="9"  fill="#fdc998" opacity="0.9"/>
     <circle cx="22" cy="34" r="8"  fill="#fdebe7"/>
-    <text x="90" y="38" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#7a2a20">EU · OUTRO · NÓS</text>
-    <path d="M180 34 L 240 34" stroke="#E87461" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="4 4"/>
+    <text x="115" y="38" text-anchor="middle" font-family="Inter,sans-serif" font-size="11" font-weight="700" fill="#7a2a20">EU · OUTRO · NÓS</text>
+    <path d="M215 34 L 240 34" stroke="#E87461" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="4 4"/>
     <path d="M236 28 L 242 34 L 236 40 Z" fill="#E87461"/>
     <g transform="translate(260,14)">
       <rect x="0" y="0" width="240" height="40" rx="20" fill="#fff" stroke="#E87461" stroke-width="1.5"/>
@@ -58,22 +58,22 @@
         <circle cx="-3" cy="-2" r="2" fill="#E87461"/>
         <circle cx="3" cy="-2" r="2" fill="#4A7C59"/>
       </g>
-      <text x="130" y="25" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="600" fill="#7a2a20">Roda da refeição</text>
+      <text x="130" y="25" text-anchor="middle" font-family="Inter,sans-serif" font-size="12" font-weight="600" fill="#7a2a20">Roda da refeição</text>
     </g>
   </g>
 
   <!-- LINHA 2: Corpo, gestos e movimentos -->
   <g transform="translate(40,220)">
     <rect x="0" y="0" width="520" height="68" rx="10" fill="url(#row-sky)"/>
-    <rect x="10" y="14" width="160" height="40" rx="20" fill="#fff" stroke="#5b9bd5" stroke-width="2"/>
+    <rect x="10" y="14" width="195" height="40" rx="20" fill="#fff" stroke="#5b9bd5" stroke-width="2"/>
     <g transform="translate(28,34)">
       <circle cx="0" cy="-8" r="5" fill="#5b9bd5"/>
       <path d="M-6 0 L 6 0 L 8 12 L -8 12 Z" fill="#5b9bd5"/>
       <line x1="-8" y1="-2" x2="-12" y2="8" stroke="#5b9bd5" stroke-width="2" stroke-linecap="round"/>
       <line x1="8" y1="-2" x2="12" y2="8" stroke="#5b9bd5" stroke-width="2" stroke-linecap="round"/>
     </g>
-    <text x="100" y="38" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#2a4a6a">CORPO · GESTOS</text>
-    <path d="M180 34 L 240 34" stroke="#5b9bd5" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="4 4"/>
+    <text x="115" y="38" text-anchor="middle" font-family="Inter,sans-serif" font-size="11" font-weight="700" fill="#2a4a6a">CORPO · GESTOS</text>
+    <path d="M215 34 L 240 34" stroke="#5b9bd5" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="4 4"/>
     <path d="M236 28 L 242 34 L 236 40 Z" fill="#5b9bd5"/>
     <g transform="translate(260,14)">
       <rect x="0" y="0" width="240" height="40" rx="20" fill="#fff" stroke="#5b9bd5" stroke-width="1.5"/>
@@ -82,21 +82,21 @@
         <path d="M5 -3 L 14 -6 L 15 -1 L 6 1 Z" fill="#5b9bd5"/>
         <ellipse cx="15" cy="3" rx="1" ry="2" fill="#7ccae0"/>
       </g>
-      <text x="130" y="25" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="600" fill="#2a4a6a">Horta · plantar e colher</text>
+      <text x="130" y="25" text-anchor="middle" font-family="Inter,sans-serif" font-size="12" font-weight="600" fill="#2a4a6a">Horta · plantar e colher</text>
     </g>
   </g>
 
   <!-- LINHA 3: Traços, sons, cores e formas -->
   <g transform="translate(40,300)">
     <rect x="0" y="0" width="520" height="68" rx="10" fill="url(#row-gold)"/>
-    <rect x="10" y="14" width="160" height="40" rx="20" fill="#fff" stroke="#D4A54A" stroke-width="2"/>
+    <rect x="10" y="14" width="195" height="40" rx="20" fill="#fff" stroke="#D4A54A" stroke-width="2"/>
     <g transform="translate(28,34)">
       <path d="M-10 4 Q -8 -6 -2 -6 L 6 -6 Q 12 -6 12 0 L 12 4" fill="none" stroke="#D4A54A" stroke-width="2.5" stroke-linecap="round"/>
       <circle cx="-10" cy="6" r="2.5" fill="#E87461"/>
       <circle cx="12" cy="6" r="2.5" fill="#4A7C59"/>
     </g>
-    <text x="100" y="38" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#8a6a20">TRAÇOS · SONS · CORES</text>
-    <path d="M180 34 L 240 34" stroke="#D4A54A" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="4 4"/>
+    <text x="115" y="38" text-anchor="middle" font-family="Inter,sans-serif" font-size="11" font-weight="700" fill="#8a6a20">TRAÇOS · SONS · CORES</text>
+    <path d="M215 34 L 240 34" stroke="#D4A54A" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="4 4"/>
     <path d="M236 28 L 242 34 L 236 40 Z" fill="#D4A54A"/>
     <g transform="translate(260,14)">
       <rect x="0" y="0" width="240" height="40" rx="20" fill="#fff" stroke="#D4A54A" stroke-width="1.5"/>
@@ -105,19 +105,19 @@
         <circle cx="2" cy="0" r="5" fill="#D4A54A"/>
         <circle cx="10" cy="0" r="5" fill="#4A7C59"/>
       </g>
-      <text x="130" y="25" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="600" fill="#8a6a20">Culinária pedagógica</text>
+      <text x="130" y="25" text-anchor="middle" font-family="Inter,sans-serif" font-size="12" font-weight="600" fill="#8a6a20">Culinária pedagógica</text>
     </g>
   </g>
 
   <!-- LINHA 4: Escuta, fala, pensamento e imaginação -->
   <g transform="translate(40,380)">
     <rect x="0" y="0" width="520" height="68" rx="10" fill="url(#row-purple)"/>
-    <rect x="10" y="14" width="160" height="40" rx="20" fill="#fff" stroke="#8B6BAE" stroke-width="2"/>
+    <rect x="10" y="14" width="195" height="40" rx="20" fill="#fff" stroke="#8B6BAE" stroke-width="2"/>
     <g transform="translate(28,34)">
       <path d="M-12 -4 Q -12 -10 -6 -10 L 8 -10 Q 12 -10 12 -4 L 12 2 Q 12 6 8 6 L 0 6 L -4 10 L -4 6 L -6 6 Q -12 6 -12 2 Z" fill="#8B6BAE"/>
     </g>
-    <text x="100" y="38" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#5a3a8a">ESCUTA · FALA</text>
-    <path d="M180 34 L 240 34" stroke="#8B6BAE" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="4 4"/>
+    <text x="115" y="38" text-anchor="middle" font-family="Inter,sans-serif" font-size="11" font-weight="700" fill="#5a3a8a">ESCUTA · FALA</text>
+    <path d="M215 34 L 240 34" stroke="#8B6BAE" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="4 4"/>
     <path d="M236 28 L 242 34 L 236 40 Z" fill="#8B6BAE"/>
     <g transform="translate(260,14)">
       <rect x="0" y="0" width="240" height="40" rx="20" fill="#fff" stroke="#8B6BAE" stroke-width="1.5"/>
@@ -129,14 +129,14 @@
         <line x1="-7" y1="0" x2="-3" y2="0" stroke="#8B6BAE" stroke-width="0.8"/>
         <line x1="3" y1="0" x2="7" y2="0" stroke="#8B6BAE" stroke-width="0.8"/>
       </g>
-      <text x="130" y="25" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="600" fill="#5a3a8a">Histórias do alimento</text>
+      <text x="130" y="25" text-anchor="middle" font-family="Inter,sans-serif" font-size="12" font-weight="600" fill="#5a3a8a">Histórias do alimento</text>
     </g>
   </g>
 
   <!-- LINHA 5: Espaços, tempos, quantidades, relações -->
   <g transform="translate(40,460)">
     <rect x="0" y="0" width="520" height="68" rx="10" fill="url(#row-green)"/>
-    <rect x="10" y="14" width="160" height="40" rx="20" fill="#fff" stroke="#4A7C59" stroke-width="2"/>
+    <rect x="10" y="14" width="195" height="40" rx="20" fill="#fff" stroke="#4A7C59" stroke-width="2"/>
     <g transform="translate(28,34)">
       <rect x="-10" y="-10" width="20" height="20" rx="2" fill="#fff" stroke="#4A7C59" stroke-width="2"/>
       <line x1="-10" y1="-3" x2="10" y2="-3" stroke="#4A7C59" stroke-width="1"/>
@@ -144,8 +144,8 @@
       <line x1="-3" y1="-10" x2="-3" y2="10" stroke="#4A7C59" stroke-width="1"/>
       <line x1="3" y1="-10" x2="3" y2="10" stroke="#4A7C59" stroke-width="1"/>
     </g>
-    <text x="100" y="38" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#2d5a3a">ESPAÇOS · TEMPOS</text>
-    <path d="M180 34 L 240 34" stroke="#4A7C59" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="4 4"/>
+    <text x="115" y="38" text-anchor="middle" font-family="Inter,sans-serif" font-size="11" font-weight="700" fill="#2d5a3a">ESPAÇOS · TEMPOS</text>
+    <path d="M215 34 L 240 34" stroke="#4A7C59" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="4 4"/>
     <path d="M236 28 L 242 34 L 236 40 Z" fill="#4A7C59"/>
     <g transform="translate(260,14)">
       <rect x="0" y="0" width="240" height="40" rx="20" fill="#fff" stroke="#4A7C59" stroke-width="1.5"/>
@@ -157,7 +157,7 @@
         <circle cx="-4" cy="5" r="1.2" fill="#4A7C59"/>
         <circle cx="4" cy="5" r="1.2" fill="#E87461"/>
       </g>
-      <text x="130" y="25" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="600" fill="#2d5a3a">Cardápio &amp; calendário</text>
+      <text x="130" y="25" text-anchor="middle" font-family="Inter,sans-serif" font-size="12" font-weight="600" fill="#2d5a3a">Cardápio &amp; calendário</text>
     </g>
   </g>
 
