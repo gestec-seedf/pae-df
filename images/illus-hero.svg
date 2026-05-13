@@ -60,7 +60,7 @@
   <g transform="translate(810 555)">
     <rect x="-1.5" y="0" width="3" height="32" fill="#5a3a23"/>
     <rect x="-50" y="-22" width="100" height="26" rx="3" fill="#fefdf6" stroke="#4A7C59" stroke-width="1.5"/>
-    <text x="0" y="-10" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" font-weight="700" fill="#4A7C59" letter-spacing="1.2">PAE-DF</text>
+    <text x="0" y="-10" text-anchor="middle" font-family="Inter,sans-serif" font-size="14" font-weight="700" fill="#4A7C59" letter-spacing="1.2">PAE-DF</text>
     <line x1="-30" y1="-6" x2="30" y2="-6" stroke="#D4A54A" stroke-width="1.2"/>
     <text x="0" y="0" text-anchor="middle" font-family="Inter,sans-serif" font-size="5.8" fill="#7a6a4a" font-style="italic" letter-spacing="0.5">Alimentação é currículo</text>
   </g>
@@ -275,9 +275,9 @@
     <g transform="translate(-150,-110)">
       <rect x="-2.5" y="0" width="5" height="30" fill="#5a3a23"/>
       <rect x="-38" y="-22" width="76" height="26" rx="3" fill="#fefdf6" stroke="#4A7C59" stroke-width="2"/>
-      <text x="0" y="-9" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#4A7C59" letter-spacing="1.5">HORTA</text>
+      <text x="0" y="-9" text-anchor="middle" font-family="Inter,sans-serif" font-size="19" font-weight="700" fill="#4A7C59" letter-spacing="1.5">HORTA</text>
       <line x1="-22" y1="-5" x2="22" y2="-5" stroke="#D4A54A" stroke-width="1.5"/>
-      <text x="0" y="0" text-anchor="middle" font-family="Inter,sans-serif" font-size="6" fill="#7a6a4a" font-style="italic" letter-spacing="0.5">pedagógica</text>
+      <text x="0" y="0" text-anchor="middle" font-family="Inter,sans-serif" font-size="11" fill="#7a6a4a" font-style="italic" letter-spacing="0.5">pedagógica</text>
     </g>
   </g>
   <!-- PROFESSORA (atrás da mesa, olhando os pratos) -->

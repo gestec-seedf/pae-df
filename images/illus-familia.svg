@@ -17,8 +17,8 @@
   <rect width="600" height="750" fill="url(#bg-fam)"/>
 
   <!-- HEADER -->
-  <text x="300" y="50" text-anchor="middle" font-family="Inter,sans-serif" font-size="11" font-weight="700" letter-spacing="3.5" fill="#7a6a4a">COMUNIDADE · CAPÍTULO 07</text>
-  <text x="300" y="92" text-anchor="middle" font-family="Inter,sans-serif" font-size="32" font-weight="700" fill="#3a3a3a">Família e <tspan font-style="italic" fill="#4A7C59">território</tspan></text>
+  <text x="300" y="50" text-anchor="middle" font-family="Inter,sans-serif" font-size="16" font-weight="700" letter-spacing="3.5" fill="#7a6a4a">COMUNIDADE · CAPÍTULO 07</text>
+  <text x="300" y="92" text-anchor="middle" font-family="Inter,sans-serif" font-size="42" font-weight="700" fill="#3a3a3a">Família e <tspan font-style="italic" fill="#4A7C59">território</tspan></text>
 
   <!-- ============ TRIÂNGULO DE CONEXÃO ============ -->
   <!-- Linhas conectoras (triângulo) -->
@@ -54,7 +54,7 @@
     </g>
     <!-- Tag -->
     <rect x="-32" y="42" width="64" height="20" rx="10" fill="#5b9bd5"/>
-    <text x="0" y="55" text-anchor="middle" font-family="Inter,sans-serif" font-size="11" font-weight="700" fill="#fff" letter-spacing="1">ESCOLA</text>
+    <text x="0" y="55" text-anchor="middle" font-family="Inter,sans-serif" font-size="16" font-weight="700" fill="#fff" letter-spacing="1">ESCOLA</text>
   </g>
 
   <!-- ============ VÉRTICE 2 — FAMÍLIA/LAR (INFERIOR ESQUERDO) ============ -->
@@ -84,7 +84,7 @@
     </g>
     <!-- Tag -->
     <rect x="-32" y="42" width="64" height="20" rx="10" fill="#E87461"/>
-    <text x="0" y="55" text-anchor="middle" font-family="Inter,sans-serif" font-size="11" font-weight="700" fill="#fff" letter-spacing="1">FAMÍLIA</text>
+    <text x="0" y="55" text-anchor="middle" font-family="Inter,sans-serif" font-size="16" font-weight="700" fill="#fff" letter-spacing="1">FAMÍLIA</text>
   </g>
 
   <!-- ============ VÉRTICE 3 — TERRITÓRIO/CERRADO (INFERIOR DIREITO) ============ -->
@@ -121,7 +121,7 @@
     </g>
     <!-- Tag -->
     <rect x="-44" y="42" width="88" height="20" rx="10" fill="#4A7C59"/>
-    <text x="0" y="55" text-anchor="middle" font-family="Inter,sans-serif" font-size="11" font-weight="700" fill="#fff" letter-spacing="1">TERRITÓRIO</text>
+    <text x="0" y="55" text-anchor="middle" font-family="Inter,sans-serif" font-size="16" font-weight="700" fill="#fff" letter-spacing="1">TERRITÓRIO</text>
   </g>
 
   <!-- ============ CRIANÇA ESTUDANTE NO CENTRO ============ -->
@@ -183,7 +183,7 @@
     <path d="M-5 -2 Q 0 4 5 -2" stroke="#7a2a20" stroke-width="1.6" fill="none" stroke-linecap="round"/>
     <!-- Tag "ESTUDANTE" abaixo -->
     <rect x="-44" y="55" width="88" height="18" rx="9" fill="#E8C94A" stroke="#D4A54A" stroke-width="1"/>
-    <text x="0" y="67" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" font-weight="700" fill="#5a3a23" letter-spacing="1.5">ESTUDANTE</text>
+    <text x="0" y="67" text-anchor="middle" font-family="Inter,sans-serif" font-size="15" font-weight="700" fill="#5a3a23" letter-spacing="1.5">ESTUDANTE</text>
   </g>
 
   <!-- Setas indicando "fluxo" para a criança no centro -->
@@ -204,8 +204,8 @@
         <path d="M-22 -10 Q -22 -22 -10 -22 L 6 -22 Q 18 -22 18 -10 Q 18 0 6 0 L -8 0 L -16 6 L -14 0 Q -22 0 -22 -10 Z" fill="#5b9bd5"/>
         <path d="M2 8 Q 2 -2 14 -2 L 22 -2 Q 30 -2 30 8 Q 30 14 22 14 L 18 14 L 24 18 L 18 16 Q 2 16 2 8 Z" fill="#fff" stroke="#5b9bd5" stroke-width="1.5"/>
       </g>
-      <text x="85" y="102" text-anchor="middle" font-family="Inter,sans-serif" font-size="15" font-weight="700" fill="#2a4a6a">DIÁLOGO</text>
-      <text x="85" y="120" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#5b9bd5">Reuniões, escutas</text>
+      <text x="85" y="102" text-anchor="middle" font-family="Inter,sans-serif" font-size="21" font-weight="700" fill="#2a4a6a">DIÁLOGO</text>
+      <text x="85" y="120" text-anchor="middle" font-family="Inter,sans-serif" font-size="14" fill="#5b9bd5">Reuniões, escutas</text>
     </g>
 
     <!-- AGRICULTURA FAMILIAR -->
@@ -224,8 +224,8 @@
         <!-- Alça -->
         <path d="M-18 -10 Q 0 -25 18 -10" stroke="#5a3a23" stroke-width="2" fill="none"/>
       </g>
-      <text x="85" y="102" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#2d5a3a">AGRICULTURA</text>
-      <text x="85" y="118" text-anchor="middle" font-family="Inter,sans-serif" font-size="11" font-weight="700" fill="#2d5a3a">FAMILIAR</text>
+      <text x="85" y="102" text-anchor="middle" font-family="Inter,sans-serif" font-size="19" font-weight="700" fill="#2d5a3a">AGRICULTURA</text>
+      <text x="85" y="118" text-anchor="middle" font-family="Inter,sans-serif" font-size="16" font-weight="700" fill="#2d5a3a">FAMILIAR</text>
     </g>
 
     <!-- CULTURA ALIMENTAR -->
@@ -253,12 +253,12 @@
         <!-- Coração ao lado (afeto) -->
         <path d="M-32 -16 Q -34 -19 -36 -16 Q -36 -13 -32 -10 Q -28 -13 -28 -16 Q -30 -19 -32 -16 Z" fill="#E87461" opacity="0.85"/>
       </g>
-      <text x="85" y="102" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#8a6a20">CULTURA</text>
-      <text x="85" y="118" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#8a6a20">ALIMENTAR</text>
+      <text x="85" y="102" text-anchor="middle" font-family="Inter,sans-serif" font-size="19" font-weight="700" fill="#8a6a20">CULTURA</text>
+      <text x="85" y="118" text-anchor="middle" font-family="Inter,sans-serif" font-size="19" font-weight="700" fill="#8a6a20">ALIMENTAR</text>
     </g>
   </g>
 
   <!-- RODAPÉ -->
-  <text x="300" y="685" text-anchor="middle" font-family="Inter,sans-serif" font-size="14" font-weight="600" fill="#3a3a3a" font-style="italic">"O triângulo que alimenta a infância."</text>
-  <text x="300" y="715" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" font-weight="600" letter-spacing="2.5" fill="#7a6a4a">FAMÍLIA · ESCOLA · TERRITÓRIO · PAE-DF</text>
+  <text x="300" y="685" text-anchor="middle" font-family="Inter,sans-serif" font-size="20" font-weight="600" fill="#3a3a3a" font-style="italic">"O triângulo que alimenta a infância."</text>
+  <text x="300" y="715" text-anchor="middle" font-family="Inter,sans-serif" font-size="15" font-weight="600" letter-spacing="2.5" fill="#7a6a4a">FAMÍLIA · ESCOLA · TERRITÓRIO · PAE-DF</text>
 </svg>

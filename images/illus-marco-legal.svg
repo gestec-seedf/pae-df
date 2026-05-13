@@ -29,8 +29,8 @@
   <rect width="600" height="750" fill="url(#bg-marco)"/>
 
   <!-- HEADER -->
-  <text x="300" y="50" text-anchor="middle" font-family="Inter,sans-serif" font-size="11" font-weight="700" letter-spacing="3.5" fill="#7a6a4a">FUNDAMENTOS · CAPÍTULO 01</text>
-  <text x="300" y="92" text-anchor="middle" font-family="Inter,sans-serif" font-size="32" font-weight="700" fill="#3a3a3a">Marco legal do <tspan font-style="italic" fill="#5b9bd5">PNAE</tspan></text>
+  <text x="300" y="50" text-anchor="middle" font-family="Inter,sans-serif" font-size="16" font-weight="700" letter-spacing="3.5" fill="#7a6a4a">FUNDAMENTOS · CAPÍTULO 01</text>
+  <text x="300" y="92" text-anchor="middle" font-family="Inter,sans-serif" font-size="42" font-weight="700" fill="#3a3a3a">Marco legal do <tspan font-style="italic" fill="#5b9bd5">PNAE</tspan></text>
 
   <!-- ============ PILHA DE LEIS (alinhada, coluna única) ============ -->
   <g transform="translate(50,150)">
@@ -46,8 +46,8 @@
     <g transform="translate(0,12)">
       <rect width="270" height="46" rx="3" fill="url(#capa-5)"/>
       <rect width="6" height="46" fill="#7a2a20"/>
-      <text x="20" y="20" font-family="Inter,sans-serif" font-size="11" font-weight="700" letter-spacing="1" fill="#fff">RES. FNDE Nº 4</text>
-      <text x="20" y="36" font-family="Inter,sans-serif" font-size="9" fill="#fdebe7">Cardápios EI · 2026</text>
+      <text x="20" y="20" font-family="Inter,sans-serif" font-size="16" font-weight="700" letter-spacing="1" fill="#fff">RES. FNDE Nº 4</text>
+      <text x="20" y="36" font-family="Inter,sans-serif" font-size="14" fill="#fdebe7">Cardápios EI · 2026</text>
       <path d="M248 18 L 252 24 L 258 25 L 254 30 L 255 36 L 248 33 L 241 36 L 242 30 L 238 25 L 244 24 Z" fill="#fff" opacity="0.9"/>
     </g>
 
@@ -55,16 +55,16 @@
     <g transform="translate(0,62)">
       <rect width="270" height="46" rx="3" fill="url(#capa-4)"/>
       <rect width="6" height="46" fill="#8a6a20"/>
-      <text x="20" y="20" font-family="Inter,sans-serif" font-size="11" font-weight="700" letter-spacing="1" fill="#fff">BNCC</text>
-      <text x="20" y="36" font-family="Inter,sans-serif" font-size="9" fill="#fdf6e0">Base Curricular · 2018</text>
+      <text x="20" y="20" font-family="Inter,sans-serif" font-size="16" font-weight="700" letter-spacing="1" fill="#fff">BNCC</text>
+      <text x="20" y="36" font-family="Inter,sans-serif" font-size="14" fill="#fdf6e0">Base Curricular · 2018</text>
     </g>
 
     <!-- Lei 4 — Lei 11.947 PNAE -->
     <g transform="translate(0,112)">
       <rect width="270" height="46" rx="3" fill="url(#capa-3)"/>
       <rect width="6" height="46" fill="#2d5a3a"/>
-      <text x="20" y="20" font-family="Inter,sans-serif" font-size="11" font-weight="700" letter-spacing="1" fill="#fff">LEI 11.947</text>
-      <text x="20" y="36" font-family="Inter,sans-serif" font-size="9" fill="#e8f5ed">Lei do PNAE · 2009</text>
+      <text x="20" y="20" font-family="Inter,sans-serif" font-size="16" font-weight="700" letter-spacing="1" fill="#fff">LEI 11.947</text>
+      <text x="20" y="36" font-family="Inter,sans-serif" font-size="14" fill="#e8f5ed">Lei do PNAE · 2009</text>
       <path d="M248 18 L 252 24 L 258 25 L 254 30 L 255 36 L 248 33 L 241 36 L 242 30 L 238 25 L 244 24 Z" fill="#fff" opacity="0.9"/>
     </g>
 
@@ -72,24 +72,24 @@
     <g transform="translate(0,162)">
       <rect width="270" height="46" rx="3" fill="url(#capa-2)"/>
       <rect width="6" height="46" fill="#2d6a8a"/>
-      <text x="20" y="20" font-family="Inter,sans-serif" font-size="11" font-weight="700" letter-spacing="1" fill="#fff">LOSAN · LEI 11.346</text>
-      <text x="20" y="36" font-family="Inter,sans-serif" font-size="9" fill="#cce8f2">Direito à alimentação · 2006</text>
+      <text x="20" y="20" font-family="Inter,sans-serif" font-size="16" font-weight="700" letter-spacing="1" fill="#fff">LOSAN · LEI 11.346</text>
+      <text x="20" y="36" font-family="Inter,sans-serif" font-size="14" fill="#cce8f2">Direito à alimentação · 2006</text>
     </g>
 
     <!-- Lei 2 — LDB -->
     <g transform="translate(0,212)">
       <rect width="270" height="46" rx="3" fill="url(#capa-1)"/>
       <rect width="6" height="46" fill="#5a3a23"/>
-      <text x="20" y="20" font-family="Inter,sans-serif" font-size="11" font-weight="700" letter-spacing="1" fill="#fff">LDB · LEI 9.394</text>
-      <text x="20" y="36" font-family="Inter,sans-serif" font-size="9" fill="#f5d4b0">Lei de Diretrizes · 1996</text>
+      <text x="20" y="20" font-family="Inter,sans-serif" font-size="16" font-weight="700" letter-spacing="1" fill="#fff">LDB · LEI 9.394</text>
+      <text x="20" y="36" font-family="Inter,sans-serif" font-size="14" fill="#f5d4b0">Lei de Diretrizes · 1996</text>
     </g>
 
     <!-- Lei 1 — Constituição Federal (base, destaque) -->
     <g transform="translate(0,262)">
       <rect width="270" height="46" rx="3" fill="#2a4a6a"/>
       <rect width="6" height="46" fill="#D4A54A"/>
-      <text x="20" y="20" font-family="Inter,sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#fff">CONSTITUIÇÃO FEDERAL</text>
-      <text x="20" y="36" font-family="Inter,sans-serif" font-size="9" fill="#D4A54A">1988 · Art. 6º e 208</text>
+      <text x="20" y="20" font-family="Inter,sans-serif" font-size="18" font-weight="700" letter-spacing="1.5" fill="#fff">CONSTITUIÇÃO FEDERAL</text>
+      <text x="20" y="36" font-family="Inter,sans-serif" font-size="14" fill="#D4A54A">1988 · Art. 6º e 208</text>
       <!-- Selo dourado -->
       <circle cx="240" cy="23" r="13" fill="#D4A54A"/>
       <circle cx="240" cy="23" r="10" fill="#E8C94A"/>
@@ -146,8 +146,8 @@
         <path d="M-22 -20 L 22 -20 L 22 8 Q 22 20 0 28 Q -22 20 -22 8 Z" fill="#E87461"/>
         <path d="M0 -14 L 4 -6 L 12 -5 L 6 1 L 8 9 L 0 5 L -8 9 L -6 1 L -12 -5 L -4 -6 Z" fill="#fff"/>
       </g>
-      <text x="85" y="100" text-anchor="middle" font-family="Inter,sans-serif" font-size="16" font-weight="700" fill="#7a2a20">DIREITO</text>
-      <text x="85" y="116" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#a04030">Constituicional</text>
+      <text x="85" y="100" text-anchor="middle" font-family="Inter,sans-serif" font-size="22" font-weight="700" fill="#7a2a20">DIREITO</text>
+      <text x="85" y="116" text-anchor="middle" font-family="Inter,sans-serif" font-size="14" fill="#a04030">Constituicional</text>
     </g>
 
     <!-- POLÍTICA PÚBLICA -->
@@ -170,8 +170,8 @@
         <!-- Estrela no topo -->
         <path d="M0 -28 L 2 -22 L 8 -22 L 3 -18 L 5 -12 L 0 -16 L -5 -12 L -3 -18 L -8 -22 L -2 -22 Z" fill="#D4A54A"/>
       </g>
-      <text x="85" y="100" text-anchor="middle" font-family="Inter,sans-serif" font-size="16" font-weight="700" fill="#2a4a6a">POLÍTICA</text>
-      <text x="85" y="116" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#5b9bd5">Pública intersetorial</text>
+      <text x="85" y="100" text-anchor="middle" font-family="Inter,sans-serif" font-size="22" font-weight="700" fill="#2a4a6a">POLÍTICA</text>
+      <text x="85" y="116" text-anchor="middle" font-family="Inter,sans-serif" font-size="14" fill="#5b9bd5">Pública intersetorial</text>
     </g>
 
     <!-- GARANTIA -->
@@ -184,12 +184,12 @@
         <circle cx="0" cy="0" r="18" fill="none" stroke="#fff" stroke-width="1.5"/>
         <path d="M-10 0 L -3 8 L 12 -8" stroke="#fff" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
       </g>
-      <text x="85" y="100" text-anchor="middle" font-family="Inter,sans-serif" font-size="16" font-weight="700" fill="#2d5a3a">GARANTIA</text>
-      <text x="85" y="116" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#4A7C59">Para cada criança</text>
+      <text x="85" y="100" text-anchor="middle" font-family="Inter,sans-serif" font-size="22" font-weight="700" fill="#2d5a3a">GARANTIA</text>
+      <text x="85" y="116" text-anchor="middle" font-family="Inter,sans-serif" font-size="14" fill="#4A7C59">Para cada criança</text>
     </g>
   </g>
 
   <!-- RODAPÉ -->
-  <text x="300" y="700" text-anchor="middle" font-family="Inter,sans-serif" font-size="14" font-weight="600" fill="#3a3a3a" font-style="italic">"Alimentação escolar é direito, não favor."</text>
-  <text x="300" y="725" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" font-weight="600" letter-spacing="2.5" fill="#7a6a4a">ARCABOUÇO JURÍDICO · PNAE · PAE-DF</text>
+  <text x="300" y="700" text-anchor="middle" font-family="Inter,sans-serif" font-size="20" font-weight="600" fill="#3a3a3a" font-style="italic">"Alimentação escolar é direito, não favor."</text>
+  <text x="300" y="725" text-anchor="middle" font-family="Inter,sans-serif" font-size="15" font-weight="600" letter-spacing="2.5" fill="#7a6a4a">ARCABOUÇO JURÍDICO · PNAE · PAE-DF</text>
 </svg>

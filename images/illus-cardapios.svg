@@ -13,8 +13,8 @@
   <rect width="600" height="750" fill="url(#bg-card)"/>
 
   <!-- HEADER -->
-  <text x="300" y="50" text-anchor="middle" font-family="Inter,sans-serif" font-size="11" font-weight="700" letter-spacing="3.5" fill="#7a6a4a">EDUCAÇÃO INFANTIL · PNAE</text>
-  <text x="300" y="88" text-anchor="middle" font-family="Inter,sans-serif" font-size="30" font-weight="700" fill="#3a3a3a">Cardápio da <tspan font-style="italic" fill="#4A7C59">Semana</tspan></text>
+  <text x="300" y="50" text-anchor="middle" font-family="Inter,sans-serif" font-size="16" font-weight="700" letter-spacing="3.5" fill="#7a6a4a">EDUCAÇÃO INFANTIL · PNAE</text>
+  <text x="300" y="88" text-anchor="middle" font-family="Inter,sans-serif" font-size="38" font-weight="700" fill="#3a3a3a">Cardápio da <tspan font-style="italic" fill="#4A7C59">Semana</tspan></text>
 
   <!-- CLIPBOARD/PAPEL -->
   <rect x="30" y="115" width="540" height="565" rx="14" fill="#a87545"/>
@@ -28,11 +28,11 @@
   <g transform="translate(60,150)">
     <!-- Tag do dia -->
     <rect x="0" y="0" width="60" height="42" rx="8" fill="#4A7C59"/>
-    <text x="30" y="16" text-anchor="middle" font-family="Inter,sans-serif" font-size="8" font-weight="700" fill="#a8e6b8" letter-spacing="1">SEG</text>
-    <text x="30" y="32" text-anchor="middle" font-family="Inter,sans-serif" font-size="16" font-weight="700" fill="#fff">02</text>
+    <text x="30" y="16" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#a8e6b8" letter-spacing="1">SEG</text>
+    <text x="30" y="32" text-anchor="middle" font-family="Inter,sans-serif" font-size="22" font-weight="700" fill="#fff">02</text>
     <!-- Texto do prato -->
-    <text x="75" y="14" font-family="Inter,sans-serif" font-size="12" font-weight="700" fill="#3a3a3a">Arroz, feijão e carne moída</text>
-    <text x="75" y="30" font-family="Inter,sans-serif" font-size="10" fill="#7a6a4a">Salada de alface e tomate · banana</text>
+    <text x="75" y="14" font-family="Inter,sans-serif" font-size="18" font-weight="700" fill="#3a3a3a">Arroz, feijão e carne moída</text>
+    <text x="75" y="30" font-family="Inter,sans-serif" font-size="15" fill="#7a6a4a">Salada de alface e tomate · banana</text>
     <!-- Linha separadora -->
     <line x1="0" y1="55" x2="480" y2="55" stroke="#e8d8a8" stroke-width="0.8" stroke-dasharray="3,3"/>
     <!-- Alimentos -->
@@ -71,10 +71,10 @@
   <!-- ============ TERÇA-FEIRA ============ -->
   <g transform="translate(60,250)">
     <rect x="0" y="0" width="60" height="42" rx="8" fill="#D4A54A"/>
-    <text x="30" y="16" text-anchor="middle" font-family="Inter,sans-serif" font-size="8" font-weight="700" fill="#fff8c0" letter-spacing="1">TER</text>
-    <text x="30" y="32" text-anchor="middle" font-family="Inter,sans-serif" font-size="16" font-weight="700" fill="#fff">03</text>
-    <text x="75" y="14" font-family="Inter,sans-serif" font-size="12" font-weight="700" fill="#3a3a3a">Macarrão com frango e legumes</text>
-    <text x="75" y="30" font-family="Inter,sans-serif" font-size="10" fill="#7a6a4a">Cenoura e abobrinha · maçã</text>
+    <text x="30" y="16" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#fff8c0" letter-spacing="1">TER</text>
+    <text x="30" y="32" text-anchor="middle" font-family="Inter,sans-serif" font-size="22" font-weight="700" fill="#fff">03</text>
+    <text x="75" y="14" font-family="Inter,sans-serif" font-size="18" font-weight="700" fill="#3a3a3a">Macarrão com frango e legumes</text>
+    <text x="75" y="30" font-family="Inter,sans-serif" font-size="15" fill="#7a6a4a">Cenoura e abobrinha · maçã</text>
     <line x1="0" y1="55" x2="480" y2="55" stroke="#e8d8a8" stroke-width="0.8" stroke-dasharray="3,3"/>
     <g transform="translate(295,20)">
       <!-- Macarrão -->
@@ -111,10 +111,10 @@
   <!-- ============ QUARTA-FEIRA ============ -->
   <g transform="translate(60,350)">
     <rect x="0" y="0" width="60" height="42" rx="8" fill="#4A7C59"/>
-    <text x="30" y="16" text-anchor="middle" font-family="Inter,sans-serif" font-size="8" font-weight="700" fill="#a8e6b8" letter-spacing="1">QUA</text>
-    <text x="30" y="32" text-anchor="middle" font-family="Inter,sans-serif" font-size="16" font-weight="700" fill="#fff">04</text>
-    <text x="75" y="14" font-family="Inter,sans-serif" font-size="12" font-weight="700" fill="#3a3a3a">Arroz, feijão e peixe assado</text>
-    <text x="75" y="30" font-family="Inter,sans-serif" font-size="10" fill="#7a6a4a">Brócolis e cenoura · laranja</text>
+    <text x="30" y="16" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#a8e6b8" letter-spacing="1">QUA</text>
+    <text x="30" y="32" text-anchor="middle" font-family="Inter,sans-serif" font-size="22" font-weight="700" fill="#fff">04</text>
+    <text x="75" y="14" font-family="Inter,sans-serif" font-size="18" font-weight="700" fill="#3a3a3a">Arroz, feijão e peixe assado</text>
+    <text x="75" y="30" font-family="Inter,sans-serif" font-size="15" fill="#7a6a4a">Brócolis e cenoura · laranja</text>
     <line x1="0" y1="55" x2="480" y2="55" stroke="#e8d8a8" stroke-width="0.8" stroke-dasharray="3,3"/>
     <g transform="translate(295,20)">
       <!-- Arroz -->
@@ -153,10 +153,10 @@
   <!-- ============ QUINTA-FEIRA ============ -->
   <g transform="translate(60,450)">
     <rect x="0" y="0" width="60" height="42" rx="8" fill="#E87461"/>
-    <text x="30" y="16" text-anchor="middle" font-family="Inter,sans-serif" font-size="8" font-weight="700" fill="#fdebe7" letter-spacing="1">QUI</text>
-    <text x="30" y="32" text-anchor="middle" font-family="Inter,sans-serif" font-size="16" font-weight="700" fill="#fff">05</text>
-    <text x="75" y="14" font-family="Inter,sans-serif" font-size="12" font-weight="700" fill="#3a3a3a">Lentilha, arroz e ovo cozido</text>
-    <text x="75" y="30" font-family="Inter,sans-serif" font-size="10" fill="#7a6a4a">Couve refogada e beterraba · mamão</text>
+    <text x="30" y="16" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#fdebe7" letter-spacing="1">QUI</text>
+    <text x="30" y="32" text-anchor="middle" font-family="Inter,sans-serif" font-size="22" font-weight="700" fill="#fff">05</text>
+    <text x="75" y="14" font-family="Inter,sans-serif" font-size="18" font-weight="700" fill="#3a3a3a">Lentilha, arroz e ovo cozido</text>
+    <text x="75" y="30" font-family="Inter,sans-serif" font-size="15" fill="#7a6a4a">Couve refogada e beterraba · mamão</text>
     <line x1="0" y1="55" x2="480" y2="55" stroke="#e8d8a8" stroke-width="0.8" stroke-dasharray="3,3"/>
     <g transform="translate(295,20)">
       <!-- Lentilha -->
@@ -192,10 +192,10 @@
   <!-- ============ SEXTA-FEIRA ============ -->
   <g transform="translate(60,550)">
     <rect x="0" y="0" width="60" height="42" rx="8" fill="#8B6238"/>
-    <text x="30" y="16" text-anchor="middle" font-family="Inter,sans-serif" font-size="8" font-weight="700" fill="#e8d8a8" letter-spacing="1">SEX</text>
-    <text x="30" y="32" text-anchor="middle" font-family="Inter,sans-serif" font-size="16" font-weight="700" fill="#fff">06</text>
-    <text x="75" y="14" font-family="Inter,sans-serif" font-size="12" font-weight="700" fill="#3a3a3a">Arroz, feijão e frango grelhado</text>
-    <text x="75" y="30" font-family="Inter,sans-serif" font-size="10" fill="#7a6a4a">Abóbora cozida e chuchu · melancia</text>
+    <text x="30" y="16" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#e8d8a8" letter-spacing="1">SEX</text>
+    <text x="30" y="32" text-anchor="middle" font-family="Inter,sans-serif" font-size="22" font-weight="700" fill="#fff">06</text>
+    <text x="75" y="14" font-family="Inter,sans-serif" font-size="18" font-weight="700" fill="#3a3a3a">Arroz, feijão e frango grelhado</text>
+    <text x="75" y="30" font-family="Inter,sans-serif" font-size="15" fill="#7a6a4a">Abóbora cozida e chuchu · melancia</text>
     <line x1="0" y1="55" x2="480" y2="55" stroke="#e8d8a8" stroke-width="0.8" stroke-dasharray="3,3"/>
     <g transform="translate(295,20)">
       <!-- Arroz -->
@@ -234,11 +234,11 @@
   <g transform="translate(60,635)">
     <!-- Selo -->
     <rect x="0" y="0" width="480" height="30" rx="6" fill="#4A7C59" opacity="0.08"/>
-    <text x="240" y="13" text-anchor="middle" font-family="Inter,sans-serif" font-size="8" font-weight="700" letter-spacing="2" fill="#2d5a3a">85% IN NATURA · 45% AGRICULTURA FAMILIAR · MÁX. 10% ULTRAPROCESSADOS</text>
-    <text x="240" y="25" text-anchor="middle" font-family="Inter,sans-serif" font-size="8" fill="#4A7C59" font-style="italic">Conforme Res. FNDE nº 4/2026 · Educação Infantil</text>
+    <text x="240" y="13" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#2d5a3a">85% IN NATURA · 45% AGRICULTURA FAMILIAR · MÁX. 10% ULTRAPROCESSADOS</text>
+    <text x="240" y="25" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" fill="#4A7C59" font-style="italic">Conforme Res. FNDE nº 4/2026 · Educação Infantil</text>
   </g>
 
   <!-- Rodapé fora do clipboard -->
-  <text x="300" y="710" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" font-weight="600" letter-spacing="2.5" fill="#7a6a4a">PAE-DF · GESTEC · SEEDF</text>
-  <text x="300" y="730" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#7a6a4a" font-style="italic">Cardápio ilustrativo — exemplo pedagógico</text>
+  <text x="300" y="710" text-anchor="middle" font-family="Inter,sans-serif" font-size="15" font-weight="600" letter-spacing="2.5" fill="#7a6a4a">PAE-DF · GESTEC · SEEDF</text>
+  <text x="300" y="730" text-anchor="middle" font-family="Inter,sans-serif" font-size="14" fill="#7a6a4a" font-style="italic">Cardápio ilustrativo — exemplo pedagógico</text>
 </svg>
