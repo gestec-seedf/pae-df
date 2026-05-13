@@ -90,10 +90,6 @@
       <rect width="6" height="46" fill="#D4A54A"/>
       <text x="20" y="20" font-family="Inter,sans-serif" font-size="18" font-weight="700" letter-spacing="1.5" fill="#fff">CONSTITUIÇÃO FEDERAL</text>
       <text x="20" y="36" font-family="Inter,sans-serif" font-size="14" fill="#D4A54A">1988 · Art. 6º e 208</text>
-      <!-- Selo dourado -->
-      <circle cx="240" cy="23" r="13" fill="#D4A54A"/>
-      <circle cx="240" cy="23" r="10" fill="#E8C94A"/>
-      <path d="M240 15 L 243 20 L 249 21 L 244 25 L 245 31 L 240 28 L 235 31 L 236 25 L 231 21 L 237 20 Z" fill="#fff"/>
     </g>
   </g>
 
