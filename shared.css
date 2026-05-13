@@ -1341,61 +1341,74 @@ ul.clean { list-style: none; padding: 0; margin: 0; }
 
 
 /* ============================================================
-   HERO BACKGROUND (v2 — imagem do Cerrado como plano de fundo)
+   HERO MOSAIC (v3 — grade 2x3 ao lado do texto, hero reduzido)
    ============================================================ */
 .hero-home {
-  grid-template-columns: 1fr !important;
+  grid-template-columns: 1.05fr 1fr !important;
+  gap: clamp(32px, 5vw, 64px) !important;
   position: relative;
   overflow: hidden;
-  min-height: 65vh;
+  min-height: 0 !important;
+  padding-top: clamp(32px, 4vw, 56px) !important;
+  padding-bottom: clamp(32px, 4vw, 56px) !important;
   display: grid;
   align-items: center;
-}
-.hero-home-bg {
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-  pointer-events: none;
-}
-.hero-home-bg img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center 60%;
-  display: block;
-}
-/* legibility veil over the illustration */
-.hero-home-bg::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background:
-    linear-gradient(
-      105deg,
-      oklch(97% 0.015 75 / 0.92) 0%,
-      oklch(97% 0.015 75 / 0.82) 38%,
-      oklch(97% 0.015 75 / 0.35) 62%,
-      oklch(97% 0.015 75 / 0.05) 100%
-    );
-}
-@media (max-width: 900px) {
-  .hero-home-bg::after {
-    background:
-      linear-gradient(
-        180deg,
-        oklch(97% 0.015 75 / 0.92) 0%,
-        oklch(97% 0.015 75 / 0.85) 55%,
-        oklch(97% 0.015 75 / 0.6) 100%
-      );
-  }
 }
 .hero-home-left {
   position: relative;
   z-index: 2;
-  max-width: 720px;
+  max-width: 640px;
 }
+.hero-home-left .hero-home-ctas { margin-bottom: 32px; }
+.hero-home-left .hero-home-meta { padding-top: 24px; gap: 20px 32px; }
+.hero-home-left .hero-home-meta strong { font-size: 22px; }
+
+/* Mosaic grid 2 cols x 3 rows */
+.hero-home-mosaic {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 150px);
+  gap: 10px;
+  width: 100%;
+  max-width: 520px;
+  margin-left: auto;
+  border-radius: 10px;
+}
+.hero-home-mosaic img {
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  object-fit: cover;
+  display: block;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px oklch(20% 0.02 50 / 0.06), 0 8px 20px oklch(30% 0.08 40 / 0.10);
+  transition: transform var(--t-med), box-shadow var(--t-med);
+}
+.hero-home-mosaic img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 2px 6px oklch(20% 0.02 50 / 0.10), 0 16px 32px oklch(30% 0.08 40 / 0.18);
+}
+
 /* hide legacy right-side card on all sizes */
 .hero-home-right { display: none !important; }
+
+@media (max-width: 900px) {
+  .hero-home {
+    grid-template-columns: 1fr !important;
+    gap: 28px !important;
+    padding-top: 28px !important;
+    padding-bottom: 28px !important;
+  }
+  .hero-home-left { max-width: none; }
+  .hero-home-mosaic {
+    grid-template-rows: repeat(3, 130px);
+    max-width: none;
+    margin-left: 0;
+    order: 1;
+  }
+}
 
 
 
