@@ -694,6 +694,16 @@ h1, h2, h3, h4, h5, h6 {
   transition: transform var(--t-med);
 }
 .cap-card:hover .cap-card-cover img { transform: scale(1.04); }
+
+/* Variante para logos/selos: nao corta, fundo claro, sem overlay escuro */
+.cap-card-cover.cap-logo {
+  background: radial-gradient(circle at 50% 40%, #ffffff 0%, oklch(97% 0.015 75) 100%);
+}
+.cap-card-cover.cap-logo img {
+  object-fit: contain;
+  padding: 18px 16px 22px;
+}
+.cap-card-cover.cap-logo::after { display: none !important; }
 .cap-card-num {
   position: absolute;
   top: 16px; left: 16px;
@@ -894,7 +904,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .chap-hero-right {
-  aspect-ratio: 4/5;
+  aspect-ratio: 1/1;
   border-radius: var(--radius-lg);
   overflow: hidden;
   background: linear-gradient(135deg, var(--buriti-soft), var(--terra-soft));
@@ -904,7 +914,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .chap-hero-right img {
   width: 100%; height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  padding: 0;
 }
 
 @media (max-width: 900px) {
